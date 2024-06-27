@@ -86,8 +86,7 @@ extern void U3CWaitUntilNextCardU3Ed__36_MoveNext_mABE95FF2334C1607DCD0F8EB0A9A7
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5FCEEE9A8231F83F1EC75CF9C626815CEBA1E751 (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_Reset_m1B7293799D7B9FEEFD4125924CA90DDA0488B21C (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_get_Current_m32915AC988ADACC69CBD8486A12AF1B0F2CBAC4B (void);
-extern void ImageAnalyzer_Start_m4357ADF15C29B585A2F83134A7728F86AA43C878 (void);
-extern void ImageAnalyzer_Update_m9EC5327C7A42910717F378016727ADA71BC4A555 (void);
+extern void ImageAnalyzer_IsSinkDirty_m4E0C499D710622A67225C4F3C96DC0D07C092BB6 (void);
 extern void ImageAnalyzer__ctor_mE58802CDF08D8DF8CDE69D4E3D88BBD717AA05E8 (void);
 extern void ObjectDetection_Start_mC944B05EA137DA4A2D0711CD9196ADE1E3EB1D16 (void);
 extern void ObjectDetection_OnEnable_m60871F897BD130FDE383469BBC545E3CEF7240BE (void);
@@ -115,6 +114,8 @@ extern void U3CMoveCoroutineU3Ed__11_MoveNext_mE3D054AA50E6DD1F168DF9A32680B8C49
 extern void U3CMoveCoroutineU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDE844517A1C7990AC0D59DD31E5ECF9E613EC6FB (void);
 extern void U3CMoveCoroutineU3Ed__11_System_Collections_IEnumerator_Reset_mF2C4A4B80F1540CE12FC4E026FDA3520BB190238 (void);
 extern void U3CMoveCoroutineU3Ed__11_System_Collections_IEnumerator_get_Current_m8736AB522E14CA67A58F96AA51DB4C5D775C77F1 (void);
+extern void Quit_QuitApplication_m4F1EA9AFDE16634EF7F157DFFAA8041FC647B232 (void);
+extern void Quit__ctor_m3F91DC1CD69CEDC58473E2984694380137C228C0 (void);
 extern void SinkDetection_Start_mF7E7B00E778ECF96B191C3D974CA834CA520823D (void);
 extern void SinkDetection_OnEnable_mB598D846C7055D13C46F265206FAB01B130F02E7 (void);
 extern void SinkDetection_OnDisable_m063B9B9F9B4D919D56475672071B80D736C9778D (void);
@@ -144,7 +145,7 @@ extern void ARFeatheredPlaneMeshVisualizerCompanion_OnDestroy_m64B601920050D7584
 extern void ARFeatheredPlaneMeshVisualizerCompanion_Update_m541F58E1FC27F7D775FE47F2C1B1A04710BC4A27 (void);
 extern void ARFeatheredPlaneMeshVisualizerCompanion_set_visualizeSurfaces_m7A7F198C97A315F6F7F58F0BDA5269863F098D68 (void);
 extern void ARFeatheredPlaneMeshVisualizerCompanion__ctor_m3871FAD2A1135D983A9B5ADCD604F22949DE985C (void);
-static Il2CppMethodPointer s_methodPointers[132] = 
+static Il2CppMethodPointer s_methodPointers[133] = 
 {
 	ARTemplateMenuManager_get_createButton_mF094F0AC7A89F9C92C57D8517519509825A145E4,
 	ARTemplateMenuManager_set_createButton_mD65905DD827D87E747095FDAF9CE38892C4340EB,
@@ -220,8 +221,7 @@ static Il2CppMethodPointer s_methodPointers[132] =
 	U3CWaitUntilNextCardU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5FCEEE9A8231F83F1EC75CF9C626815CEBA1E751,
 	U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_Reset_m1B7293799D7B9FEEFD4125924CA90DDA0488B21C,
 	U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_get_Current_m32915AC988ADACC69CBD8486A12AF1B0F2CBAC4B,
-	ImageAnalyzer_Start_m4357ADF15C29B585A2F83134A7728F86AA43C878,
-	ImageAnalyzer_Update_m9EC5327C7A42910717F378016727ADA71BC4A555,
+	ImageAnalyzer_IsSinkDirty_m4E0C499D710622A67225C4F3C96DC0D07C092BB6,
 	ImageAnalyzer__ctor_mE58802CDF08D8DF8CDE69D4E3D88BBD717AA05E8,
 	ObjectDetection_Start_mC944B05EA137DA4A2D0711CD9196ADE1E3EB1D16,
 	ObjectDetection_OnEnable_m60871F897BD130FDE383469BBC545E3CEF7240BE,
@@ -249,6 +249,8 @@ static Il2CppMethodPointer s_methodPointers[132] =
 	U3CMoveCoroutineU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDE844517A1C7990AC0D59DD31E5ECF9E613EC6FB,
 	U3CMoveCoroutineU3Ed__11_System_Collections_IEnumerator_Reset_mF2C4A4B80F1540CE12FC4E026FDA3520BB190238,
 	U3CMoveCoroutineU3Ed__11_System_Collections_IEnumerator_get_Current_m8736AB522E14CA67A58F96AA51DB4C5D775C77F1,
+	Quit_QuitApplication_m4F1EA9AFDE16634EF7F157DFFAA8041FC647B232,
+	Quit__ctor_m3F91DC1CD69CEDC58473E2984694380137C228C0,
 	SinkDetection_Start_mF7E7B00E778ECF96B191C3D974CA834CA520823D,
 	SinkDetection_OnEnable_mB598D846C7055D13C46F265206FAB01B130F02E7,
 	SinkDetection_OnDisable_m063B9B9F9B4D919D56475672071B80D736C9778D,
@@ -284,7 +286,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] =
 {
 	{ 0x0600002F, Goal__ctor_m1545B6E40E910D8B0648797BF96520F84FF2FF40_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[132] = 
+static const int32_t s_InvokerIndices[133] = 
 {
 	9234,
 	7328,
@@ -360,8 +362,7 @@ static const int32_t s_InvokerIndices[132] =
 	9234,
 	9382,
 	9234,
-	9382,
-	9382,
+	5209,
 	9382,
 	9382,
 	9382,
@@ -392,6 +393,8 @@ static const int32_t s_InvokerIndices[132] =
 	9382,
 	9382,
 	9382,
+	9382,
+	9382,
 	7167,
 	5209,
 	7460,
@@ -404,11 +407,11 @@ static const int32_t s_InvokerIndices[132] =
 	9382,
 	9382,
 	9382,
-	14783,
+	14784,
 	9382,
 	9234,
 	9382,
-	14757,
+	14758,
 	9234,
 	7328,
 	9299,
@@ -423,7 +426,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	132,
+	133,
 	s_methodPointers,
 	1,
 	s_adjustorThunks,
