@@ -20,3 +20,48 @@ MonoBehaviour:
     m_Name: PaperPlate
     m_Entries:
     - {fileID: -6831329414088302235, guid: 0f5cfc50cfd434354b801d33bbfc8a6b, type: 3}
+  - m_GuidLow: 5267575711528754090
+    m_GuidHigh: 5335466953145419681
+    m_Name: Sink
+    m_Entries:
+    - {fileID: -6831329414088302235, guid: 234d29f970ff349c5b7b4367f5e6ca34, type: 3}
+  - m_GuidLow: 4919646307429571253
+    m_GuidHigh: 13528948044079324317
+    m_Name: Tissue1
+    m_Entries:
+    - {fileID: -6831329414088302235, guid: e6ca09ff1f30b4cc099d331defa2d2a3, type: 3}
+  - m_GuidLow: 4704429829399660316
+    m_GuidHigh: 1408016764097745585
+    m_Name: Tissue2
+    m_Entries:
+    - {fileID: -6831329414088302235, guid: 38749931a36be401aa8ce9e719672c6f, type: 3}
+  - m_GuidLow: 5550553468918661699
+    m_GuidHigh: 5869418681878344338
+    m_Name: Tissue3
+    m_Entries:
+    - {fileID: -6831329414088302235, guid: a7f791c91d2b740cf92fc56da06f65ed, type: 3}
+  - m_GuidLow: 5311419644627742964
+    m_GuidHigh: 7411198062235742909
+    m_Name: Tissue4
+    m_Entries:
+    - {fileID: -6831329414088302235, guid: e6ca09ff1f30b4cc099d331defa2d2a3, type: 3}
+  - m_GuidLow: 5297899524597194277
+    m_GuidHigh: 16521215865162046616
+    m_Name: Tissue5
+    m_Entries:
+    - {fileID: -6831329414088302235, guid: cc5ac6f6266944ae48c0ff4d3c1c5b5b, type: 3}
+  - m_GuidLow: 5314148629574473942
+    m_GuidHigh: 5346944940353037702
+    m_Name: Tissue6
+    m_Entries:
+    - {fileID: -6831329414088302235, guid: eb9df41e45462439c88f91974ca47628, type: 3}
+  - m_GuidLow: 4619592622932988478
+    m_GuidHigh: 7654281793167373971
+    m_Name: Tissue7
+    m_Entries:
+    - {fileID: -6831329414088302235, guid: 688ae1fa5c5d24e3d969c45a198e2c2a, type: 3}
+  - m_GuidLow: 5757957917422065602
+    m_GuidHigh: 5803231008278260902
+    m_Name: Tissue8
+    m_Entries:
+    - {fileID: -6831329414088302235, guid: 90b3a55f89e1d4ee68178c26a99c037f, type: 3}
