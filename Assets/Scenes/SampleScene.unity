@@ -1804,7 +1804,7 @@ MonoBehaviour:
   platePrefabs:
   - {fileID: 3127828133140009537, guid: 3362afe08ce7848ca9af36cc0b962e45, type: 3}
   delayBetweenPlates: 1
-  yellowSpotPrefab: {fileID: 3540577813012425328, guid: c1eb41efa9e184ea2a107a5ce3236c5a,
+  yellowSpotPrefab: {fileID: 36022396593690875, guid: 4438bb053e39245fa8df6864a0a2e8d3,
     type: 3}
 --- !u!1 &425410336
 GameObject:
@@ -4522,7 +4522,7 @@ MonoBehaviour:
   raycastManager: {fileID: 331264289}
   platePrefab: {fileID: 3127828133140009537, guid: 3362afe08ce7848ca9af36cc0b962e45,
     type: 3}
-  yellowSpotPrefab: {fileID: 3540577813012425328, guid: c1eb41efa9e184ea2a107a5ce3236c5a,
+  yellowSpotPrefab: {fileID: 36022396593690875, guid: 4438bb053e39245fa8df6864a0a2e8d3,
     type: 3}
   infoText: {fileID: 608830357}
   objectMovement: {fileID: 394869436}
@@ -6701,7 +6701,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1177264933}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 173779100}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1033804548}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1177264933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10982,7 +11006,9 @@ MonoBehaviour:
   instructionText: {fileID: 1455811512}
   yellowPrefab: {fileID: 6385998318271009148, guid: 4360e3c9d65ee40469cf077d990a6c7f,
     type: 3}
-  trashCanPrefab: {fileID: 919132149155446097, guid: 708d842224a214ad29f7a7155c61c5c0,
+  cubePrefab: {fileID: 713139086578512087, guid: b35a9d8d56e1c484eb28c6c0e9c1b7dc,
+    type: 3}
+  trashCan: {fileID: -8679921383154817045, guid: 708d842224a214ad29f7a7155c61c5c0,
     type: 3}
 --- !u!4 &2037285505
 Transform:

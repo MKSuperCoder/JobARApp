@@ -1,0 +1,5904 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457;
+struct Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD;
+struct Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D;
+struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4;
+struct Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7;
+struct Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C;
+struct Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2;
+struct Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1;
+struct Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00;
+struct Func_2_tACBF5A1656250800CE861707354491F0611F6624;
+struct Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93;
+struct IEnumerable_1_t5D0D839154F81CB80A1F88B80E08EA2AAF418256;
+struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
+struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
+struct IList_1_tC4DEA12467215522FD481372B5DC8706796A5FF1;
+struct IList_1_t6EE90D273EFCF5E7E4C37FAB712E70BB6F1B4BFF;
+struct IOrderedEnumerable_1_t0E680E8E1A4A676334F2A0C9A6F9B93135A65EAC;
+struct IOrderedEnumerable_1_tCA2A9103AFD3840344CBF518E55C59ACD725552C;
+struct List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35;
+struct List_1_t59C7326CF286E434F3449FF05F3C343F4555285F;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666;
+struct ReadOnlyCollection_1_t5397DF0DB61D1090E7BBC89395CECB8D020CED92;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A;
+struct UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B;
+struct UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205;
+struct UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct Delegate_t;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB;
+struct ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB;
+struct Exception_t;
+struct FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224;
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6;
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
+struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140;
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F;
+struct SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB;
+struct SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E;
+struct SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E;
+struct SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE;
+struct TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51;
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC4249931E82CEBAEC1968B680E9E9A0DF4A946C6;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
+struct EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655;
+struct OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F;
+struct OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B;
+struct SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555;
+struct U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3;
+struct U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F;
+struct U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E;
+struct U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383;
+struct U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C;
+struct U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C;
+struct U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49;
+struct U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3;
+struct U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45;
+struct U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060;
+struct U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SpeechBoundary_t64260DBD3A5863D40EFEAB8BE225A890A80D5CE8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* VoiceQuality_tA1738D634A3862BD84CF5100F33F5F18A8F2B927_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____139C31411DD9880BAA0D32F627AEB1AF3C58FD9FA5791ED6F2811227643C086F_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____6FA95F03927571C9329D36446967BB0F902394424812E51E0103CBF824DB7564_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral04D22093041D7DB9BC168737FA44C82B125FE3D5;
+IL2CPP_EXTERN_C String_t* _stringLiteral116273CD5D8FA85B2B09F79802D1EDD0C11FFC66;
+IL2CPP_EXTERN_C String_t* _stringLiteral1F5D109BA6DE99F9109D8AAFAEC55D57E4012C2C;
+IL2CPP_EXTERN_C String_t* _stringLiteral23114468D04FA2B7A2DA455B545DB914D0A3ED94;
+IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
+IL2CPP_EXTERN_C String_t* _stringLiteral3071F6E7D4934C369A5C8DA722E23C86E7A4BC0C;
+IL2CPP_EXTERN_C String_t* _stringLiteral3371C9C28E563AFD0A683CA126F078F3F07B7306;
+IL2CPP_EXTERN_C String_t* _stringLiteral38369CC1139BC6715854E10AA05FA445DF3538A6;
+IL2CPP_EXTERN_C String_t* _stringLiteral3C4534B4D2648C36A5B8BBF0F019FC9D1D6EB0F7;
+IL2CPP_EXTERN_C String_t* _stringLiteral46AADC523616552BE6B449CC2F0ACCDCBCF6A294;
+IL2CPP_EXTERN_C String_t* _stringLiteral590EAF9284E3110BC122791A1DF3C10F9CC96C4B;
+IL2CPP_EXTERN_C String_t* _stringLiteral5EB3E0056939FDD86E679106AA694FB264A62147;
+IL2CPP_EXTERN_C String_t* _stringLiteral629E750A5A0A7774D57345246544DC00FD078A49;
+IL2CPP_EXTERN_C String_t* _stringLiteral69AE3A404AEA7C840D2FF52C5EF738C4E0A98E33;
+IL2CPP_EXTERN_C String_t* _stringLiteral6B02FADAE012DF34F336EB192E223B18612D5406;
+IL2CPP_EXTERN_C String_t* _stringLiteral72DEF5B5F1D04BD357E8DAAB6DA60934536A60D8;
+IL2CPP_EXTERN_C String_t* _stringLiteral76A1A7A4DDE052A72907CF05916F053EA254D60D;
+IL2CPP_EXTERN_C String_t* _stringLiteral7E678338D894AC210E1B4F81BE22A25E6B18DD1A;
+IL2CPP_EXTERN_C String_t* _stringLiteral845B29B67D6424259AB80692712AC24CCF5BADF3;
+IL2CPP_EXTERN_C String_t* _stringLiteral9B59607D7E294C9759940B92435C360BAFC13984;
+IL2CPP_EXTERN_C String_t* _stringLiteral9D5313975DA8153FF9A5262016CB413A4E84846E;
+IL2CPP_EXTERN_C String_t* _stringLiteralA63B132396CD361156B3E69252818B2A6054B8F2;
+IL2CPP_EXTERN_C String_t* _stringLiteralA695A3D7B80A612FE4D8F644AF65709D18DCA444;
+IL2CPP_EXTERN_C String_t* _stringLiteralA73BD6C9F73549FF7801E44A26EBC86B3FFEAA38;
+IL2CPP_EXTERN_C String_t* _stringLiteralA8E41F0AC6DAFFCDAE435C3E37EAB78BDC34D567;
+IL2CPP_EXTERN_C String_t* _stringLiteralA8E58B6F8545B5FFB6E26A77C7B778EBA2B6D54A;
+IL2CPP_EXTERN_C String_t* _stringLiteralAC9C1FF5CED0B9F748FF1EEAA64A86FA85378C8B;
+IL2CPP_EXTERN_C String_t* _stringLiteralAD63C57267F016D48E7D78ECDEEE89E279C366DB;
+IL2CPP_EXTERN_C String_t* _stringLiteralB5466F3CB535834FA62C71252E792E251CD0A1C9;
+IL2CPP_EXTERN_C String_t* _stringLiteralC27C971CF1FF3C7709A0BFCCDA5AE1BC11003B9B;
+IL2CPP_EXTERN_C String_t* _stringLiteralCBFBBDAAE91CF15545A1660A6AFC8BB28EFDD6E2;
+IL2CPP_EXTERN_C String_t* _stringLiteralD4107C96B71DE27D18F8776C6693EE85F306B147;
+IL2CPP_EXTERN_C String_t* _stringLiteralDF25DBD6EE5AB620F6EC4D779CE029E3C61F2B37;
+IL2CPP_EXTERN_C String_t* _stringLiteralF6A101741C640B937FF720B3CB1412AEF2A36790;
+IL2CPP_EXTERN_C String_t* _stringLiteralFC7C0F07B528CF7B5075BE3F47C747D0F5182858;
+IL2CPP_EXTERN_C String_t* _stringLiteralFC7C6B367B676AC6A80CD6E71291632888A36117;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Distinct_TisString_t_m1E99E758E2A5605D0EE48F5715C69AF1096BF99B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_FirstOrDefault_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_mD0FC2297896C786BFC5494729FC552D6D97EEDC4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_OrderBy_TisString_t_TisString_t_m40B981D8BC975EB4FB16F2CFC3C9782D92493D2B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_TisString_t_mF061228D6E275639109E7DA56E069BBD8EED6F32_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_m468BBA1D7EC808F35A43B6101EFE07C0544FCB09_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToList_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_mAE10957E191A158B7A66A1D3A8E0D22287CF4EAC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Where_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_m51534E8D0E2F72909B2458936753E12671ADD9E1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ExampleScript_ClearTextProgress_m49AD4B91E2B37F26CE247F10CF6CF8DD5006AEE4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ExampleScript_U3CAwakeU3Eb__18_0_mD004688662BA06D5B2E4DBFF46AE4819EA282194_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ExampleScript_UpdateTextProgress_m49D424ED82FFC18AF22DAB090B34AF1F20B9C25D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m4E0C9673C23A17551CA8C52B4BF4BF91D0C14F3F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_IndexOf_m0CC826A845D879D180EF1FCD9A4AB9BB6511DFC9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m0AA80B0280F0F5BE09EE51F313EF27A812223EFA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1__ctor_m2C82EFEE7548B1F2A8549847A99F9A3EDB4B740A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_InitializeVoices_m08243A61A3486297BBE75FA4BDB80EE1626CC19B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_OnSpeechCancelledCallback_mF8B8FD40DE476A3DBA21004C85396338B499DD1A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_OnSpeechContinuedCallback_mACAEA03DA6AF4E57F87C8BFF7D9ACF448EBD98E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_OnSpeechFinishedCallback_mBC90A28B719FFC3395EA4320BDCAA4607EA10078_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_OnSpeechPausedCallback_m123F66DA6E5D917809F8AC81E98E381BC7463BCC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_OnSpeechStartedCallback_m06948A7544025C68EC825EA0E8914891ED47232C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_OnWillSpeakCallback_m392AF2EBF59375C69B9109BC0DB1368BDCD46417_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS_PauseSpeaking_m8977BE0E87FC44975FECEA3C11621CBD50C4396D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS_StopSpeaking_m26A4D4E0EE35A2C3E03F63712593ED6D71219283_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS_Try_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mBFC3CC301EBD0EAC00730721CF966D7FCA07FE4E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS_Try_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m58A5CA1CEC9F527CE0190E85742E3C7BECE0CFBB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__ContinueSpeaking_mC96F76527A94E2EB112B868AF8415852664188C5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__CurrentLanguageCode_mD19C7FE5923F99D73914A80BE90797947FB431C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__GetNumberOfAvailableVoices_mA9E6FAE34AB3C8CE1C332561C75E710CF418F80A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__PauseSpeakingEndOfWord_mD992E79499C7E2110C8F22BAA5A54A606B6FA09C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__PauseSpeakingImmediate_m511F9D013FD72440CDA43B00B39CB321EDDDAC36_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__StopSpeakingEndOfWord_mD8A9698A41D50120D0394553F7BF3F81B41EA12F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__StopSpeakingImmediate_m3DF286EAD106932446455A3CC5BF27A7C9973673_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__UtteranceDefaultSpeechRate_mFCB1508C64982B6F4792B076E78CFFEEEE3E19DA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__UtteranceMaximumSpeechRate_m51CEFB508EECF43B932D2EBC9E0772B5E59DD336_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__UtteranceMinimumSpeechRate_m865E76FAFB8F6D937BEC01B694FD1934BF89D7D6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__isPaused_mF3F228C17B38A9351FD814A503E12F769701CE25_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TTS_iOS__isSpeaking_mCF587BF6FBAC0B64D78344E926C88C8AD53CADB2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGetAllAvailableLanguagesU3Eb__36_0_m485F45C7D3481F44CE9C265098939DCEA4C34E91_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGetAllAvailableLanguagesU3Eb__36_1_m63CF2F0A67257F6707577235D46A26FA6C3D8EFD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass19_0_U3CSetupCallbacksU3Eb__0_m7070CA870EE8C63992BC23EA39F9258F5EE1926A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass20_1_U3CSpeakU3Eb__0_m379640C8E0A463199D9621B26A5DA02B79C2FB03_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass32_0_U3CGetVoiceForLanguageU3Eb__0_m44ACA32FD4369A08140FDEA3E66FB1C56999BC87_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass33_0_U3CGetAllVoicesForLanguageU3Eb__0_m4E9094633677CCD05C78D9B02C285A62F01AA065_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass35_0_U3CGetVoiceIdentifierU3Eb__0_m95A0A638D71B09B9B4B0A731AB1CFEE790654C35_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass36_0_U3CGetVoiceNameU3Eb__0_mA28FCE93618BF1F20381C2E1F33A1361146B3B05_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass37_0_U3CGetVoiceLanguageU3Eb__0_m63C0D08EA38D017E25DDC93FB82DEFB08314591B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass38_0_U3CGetVoiceQualityU3Eb__0_mB9BB439EA782926797622BFB26888A32BF6A4FD6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass39_0_U3CGetVoiceIdentifierFromLanguageCodeU3Eb__0_m2BD6B2EB71EAD07AFE19479ACF4E6AC261AA0BB9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tF062866229C4952B8051AD32AB6E9D931142CC95 
+{
+};
+struct List_1_t59C7326CF286E434F3449FF05F3C343F4555285F  : public RuntimeObject
+{
+	ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666  : public RuntimeObject
+{
+	RuntimeObject* ___list;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121  : public RuntimeObject
+{
+};
+struct SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E  : public RuntimeObject
+{
+	String_t* ___SpeechString;
+	SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* ____parameters;
+};
+struct SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9  : public RuntimeObject
+{
+	float ___PitchMultiplier;
+	float ___PreUtteranceDelay;
+	float ___PostUtteranceDelay;
+	float ___SpeechRate;
+	RuntimeObject* ___Voice;
+	float ___Volume;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51  : public RuntimeObject
+{
+	SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* ____defaultParameters;
+	ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* ____allAvailableVoices;
+};
+struct TTS_iOS_tFEA253A630B7107E9B96E04304CE17A94778CA19  : public RuntimeObject
+{
+};
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls;
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls;
+	bool ___m_CallsDirty;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC4249931E82CEBAEC1968B680E9E9A0DF4A946C6  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3  : public RuntimeObject
+{
+};
+struct U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F  : public RuntimeObject
+{
+	String_t* ___voiceId;
+};
+struct U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E  : public RuntimeObject
+{
+	String_t* ___language;
+};
+struct U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383  : public RuntimeObject
+{
+	SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___speechUtteranceCancelled;
+	SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___speechUtteranceContinued;
+	SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___speechUtteranceFinished;
+	SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___speechUtterancePaused;
+	SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___speechUtteranceStarted;
+	StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* ___willSpeakPartOfString;
+};
+struct U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C  : public RuntimeObject
+{
+	String_t* ___textToSpeak;
+	double ___preUtteranceDelay;
+	double ___postUtteranceDelay;
+	String_t* ___voiceIdentifier;
+};
+struct U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C  : public RuntimeObject
+{
+	float ___pitch;
+	float ___rate;
+	float ___clampedVolume;
+	U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* ___CSU24U3CU3E8__locals1;
+};
+struct U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49  : public RuntimeObject
+{
+	int32_t ___index;
+};
+struct U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3  : public RuntimeObject
+{
+	int32_t ___index;
+};
+struct U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45  : public RuntimeObject
+{
+	int32_t ___index;
+};
+struct U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060  : public RuntimeObject
+{
+	int32_t ___index;
+};
+struct U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4  : public RuntimeObject
+{
+	String_t* ___languageCode;
+};
+struct UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1__padding[1];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	int64_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD 
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_pinvoke
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_com
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D310_tAA6DA4E2DA076D194A7FBB1F67BB564789B446FF 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D310_tAA6DA4E2DA076D194A7FBB1F67BB564789B446FF__padding[310];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D502_t87FDF7CEDFC500094BBD4FE2C33B48414020661F 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D502_t87FDF7CEDFC500094BBD4FE2C33B48414020661F__padding[502];
+	};
+};
+#pragma pack(pop, tp)
+struct MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_NormalColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_HighlightedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_PressedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_SelectedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_DisabledColor;
+	float ___m_ColorMultiplier;
+	float ___m_FadeDuration;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct RuntimePlatform_t9A8AAF204603076FCAAECCCC05DA386AEE7BF66E 
+{
+	int32_t ___value__;
+};
+struct SpeechBoundary_t64260DBD3A5863D40EFEAB8BE225A890A80D5CE8 
+{
+	int32_t ___value__;
+};
+struct TouchScreenKeyboardType_t3F5A06315B263282460BE67DE01393B6FB3780C1 
+{
+	int32_t ___value__;
+};
+struct VoiceQuality_tA1738D634A3862BD84CF5100F33F5F18A8F2B927 
+{
+	int32_t ___value__;
+};
+struct CharacterValidation_t5DAA94F9780B40CCF419821363E89B30E2EF7380 
+{
+	int32_t ___value__;
+};
+struct ContentType_t7E546E516F92E955324D479BB71667931F1A7956 
+{
+	int32_t ___value__;
+};
+struct EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655  : public UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257
+{
+};
+struct InputType_t036D7DF2772E6C8C7DB969C7501F6513339572D4 
+{
+	int32_t ___value__;
+};
+struct LineType_tC4DBAA8629361B209A2BA0625320B24FC4566B6B 
+{
+	int32_t ___value__;
+};
+struct Mode_t2D49D0E10E2FDA0026278C2400C16033888D0542 
+{
+	int32_t ___value__;
+};
+struct Transition_tF856A77C9FAC6D26EA3CA158CF68B739D35397B3 
+{
+	int32_t ___value__;
+};
+struct Direction_t4C81D17BB6C089A0EC1C4934525B86E75E693EFA 
+{
+	int32_t ___value__;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C 
+{
+	int32_t ___m_Mode;
+	bool ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_pinvoke
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_com
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB  : public RuntimeObject
+{
+	String_t* ____identifier;
+	String_t* ____name;
+	String_t* ____language;
+	int32_t ____quality;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457  : public MulticastDelegate_t
+{
+};
+struct Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD  : public MulticastDelegate_t
+{
+};
+struct Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D  : public MulticastDelegate_t
+{
+};
+struct Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7  : public MulticastDelegate_t
+{
+};
+struct Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C  : public MulticastDelegate_t
+{
+};
+struct Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2  : public MulticastDelegate_t
+{
+};
+struct Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1  : public MulticastDelegate_t
+{
+};
+struct Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93  : public MulticastDelegate_t
+{
+};
+struct UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B  : public MulticastDelegate_t
+{
+};
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	String_t* ____paramName;
+};
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E  : public MulticastDelegate_t
+{
+};
+struct StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE  : public MulticastDelegate_t
+{
+};
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+	RuntimeObject* ____actualValue;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* ___InputField;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___IsPausedText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___IsSpeakingText;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___PitchSlider;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___RateSlider;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___CurrentPitch;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___CurrentRate;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___VolumeSlider;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___CurrentVolume;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___VoiceTitle;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___VoiceId;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___VoiceName;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___VoiceLanguage;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___VoiceQuality;
+	int32_t ____speechBoundary;
+	int32_t ____currentVoiceIndex;
+	String_t* ____lastSubmittedText;
+	List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* ____voices;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	bool ___m_EnableCalled;
+	Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C ___m_Navigation;
+	int32_t ___m_Transition;
+	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___m_Colors;
+	SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD ___m_SpriteState;
+	AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074* ___m_AnimationTriggers;
+	bool ___m_Interactable;
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___m_TargetGraphic;
+	bool ___m_GroupsAllowInteraction;
+	int32_t ___m_CurrentIndex;
+	bool ___U3CisPointerInsideU3Ek__BackingField;
+	bool ___U3CisPointerDownU3Ek__BackingField;
+	bool ___U3ChasSelectionU3Ek__BackingField;
+	List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* ___m_CanvasGroupCache;
+};
+struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* ___m_Keyboard;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_TextComponent;
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___m_Placeholder;
+	int32_t ___m_ContentType;
+	int32_t ___m_InputType;
+	Il2CppChar ___m_AsteriskChar;
+	int32_t ___m_KeyboardType;
+	int32_t ___m_LineType;
+	bool ___m_HideMobileInput;
+	int32_t ___m_CharacterValidation;
+	int32_t ___m_CharacterLimit;
+	SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* ___m_OnSubmit;
+	EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* ___m_OnDidEndEdit;
+	OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* ___m_OnValueChanged;
+	OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* ___m_OnValidateInput;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_CaretColor;
+	bool ___m_CustomCaretColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_SelectionColor;
+	String_t* ___m_Text;
+	float ___m_CaretBlinkRate;
+	int32_t ___m_CaretWidth;
+	bool ___m_ReadOnly;
+	bool ___m_ShouldActivateOnSelect;
+	int32_t ___m_CaretPosition;
+	int32_t ___m_CaretSelectPosition;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___caretRectTrans;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_CursorVerts;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_InputTextCache;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CachedInputRenderer;
+	bool ___m_PreventFontCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_Mesh;
+	bool ___m_AllowInput;
+	bool ___m_ShouldActivateNextUpdate;
+	bool ___m_UpdateDrag;
+	bool ___m_DragPositionOutOfBounds;
+	bool ___m_CaretVisible;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_BlinkCoroutine;
+	float ___m_BlinkStartTime;
+	int32_t ___m_DrawStart;
+	int32_t ___m_DrawEnd;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_DragCoroutine;
+	String_t* ___m_OriginalText;
+	bool ___m_WasCanceled;
+	bool ___m_HasDoneFocusTransition;
+	WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* ___m_WaitForSecondsRealtime;
+	bool ___m_TouchKeyboardAllowsInPlaceEditing;
+	bool ___m_IsCompositionActive;
+	Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* ___m_ProcessingEvent;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillRect;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleRect;
+	int32_t ___m_Direction;
+	float ___m_MinValue;
+	float ___m_MaxValue;
+	bool ___m_WholeNumbers;
+	float ___m_Value;
+	SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* ___m_OnValueChanged;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_FillImage;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_FillTransform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillContainerRect;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_HandleTransform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleContainerRect;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Offset;
+	DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 ___m_Tracker;
+	bool ___m_DelayedUpdateVisuals;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData;
+	String_t* ___m_Text;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout;
+	bool ___m_DisableFontTextureRebuiltCallback;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts;
+};
+struct List_1_t59C7326CF286E434F3449FF05F3C343F4555285F_StaticFields
+{
+	ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D310_tAA6DA4E2DA076D194A7FBB1F67BB564789B446FF ___139C31411DD9880BAA0D32F627AEB1AF3C58FD9FA5791ED6F2811227643C086F;
+	__StaticArrayInitTypeSizeU3D502_t87FDF7CEDFC500094BBD4FE2C33B48414020661F ___6FA95F03927571C9329D36446967BB0F902394424812E51E0103CBF824DB7564;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields
+{
+	TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* ____instance;
+	SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___OnSpeechCancelled;
+	SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___OnSpeechContinued;
+	SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___OnSpeechFinished;
+	SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___OnSpeechPaused;
+	SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___OnSpeechStarted;
+	StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* ___OnWillSpeak;
+	int32_t ___DefaultSpeechBoundaryForPause;
+	int32_t ___DefaultSpeechBoundaryForStop;
+};
+struct U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_StaticFields
+{
+	U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3* ___U3CU3E9;
+	Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1* ___U3CU3E9__36_0;
+	Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* ___U3CU3E9__36_1;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712_StaticFields
+{
+	SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9* ___s_Selectables;
+	int32_t ___s_SelectableCount;
+};
+struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___kSeparators;
+	bool ___s_IsQuestDevice;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Delegate_t* m_Items[1];
+
+	inline Delegate_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Delegate_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadOnlyCollection_1__ctor_mF2D2ACE0752C3B97343B72328D49200F45C14B65_gshared (ReadOnlyCollection_1_t5397DF0DB61D1090E7BBC89395CECB8D020CED92* __this, RuntimeObject* ___0_list, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared (Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_FirstOrDefault_TisRuntimeObject_mFACC750E4D7AF7B43F5B866C84F613B3ECC41994_gshared (RuntimeObject* ___0_source, Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* ___1_predicate, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Where_TisRuntimeObject_m5DAF16724887B42DDBBF391C7F375749E8AA4AD7_gshared (RuntimeObject* ___0_source, Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* ___1_predicate, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m67C538A5EBF57C4844107A8EF25DB2CAAFBAF8FB_gshared (RuntimeObject* ___0_source, Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___1_selector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Distinct_TisRuntimeObject_mBCF33F5AD0A25B1E57B46FF34330DF74278ADB9E_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_OrderBy_TisRuntimeObject_TisRuntimeObject_m95A8A4774C308571D7F63FEFC3313E6ACE9C8049_gshared (RuntimeObject* ___0_source, Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___1_keySelector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22_gshared (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_gshared (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___0_action, bool ___1_fallbackValue, String_t* ___2_errorMessage, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m94E0C712F86101E026834DA318C3FFF46DE49C71_gshared (Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846_gshared (Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* ___0_action, float ___1_fallbackValue, String_t* ___2_errorMessage, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m8E73BFE6AD5362513E1302835EF279650B70333F_gshared (Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTS_iOS_Try_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m58A5CA1CEC9F527CE0190E85742E3C7BECE0CFBB_gshared (Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D* ___0_action, int64_t ___1_fallbackValue, String_t* ___2_errorMessage, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8_gshared (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTS_iOS_Try_TisRuntimeObject_m8115E99B3D6387B8188C09DCF69B43FA56361F50_gshared (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___0_action, RuntimeObject* ___1_fallbackValue, String_t* ___2_errorMessage, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m475512287B9508E6D4721B3022635FED517234D1_gshared (Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TTS_iOS_Try_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mBFC3CC301EBD0EAC00730721CF966D7FCA07FE4E_gshared (Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD* ___0_action, int32_t ___1_fallbackValue, String_t* ___2_errorMessage, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* Enumerable_ToList_TisRuntimeObject_m6456D63764F29E6B5B2422C3DE25113577CF51EE_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtteranceParameters__ctor_mB782BC9451171DF1131877C713D60FDB5E027419 (SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_get_UtteranceDefaultSpeechRate_m45EC8C51FDACCEC93DC4E02B21633D4DF5E8524F (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnSpeechCancelledCallback_mF8B8FD40DE476A3DBA21004C85396338B499DD1A (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnSpeechContinuedCallback_mACAEA03DA6AF4E57F87C8BFF7D9ACF448EBD98E9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnSpeechFinishedCallback_mBC90A28B719FFC3395EA4320BDCAA4607EA10078 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnSpeechPausedCallback_m123F66DA6E5D917809F8AC81E98E381BC7463BCC (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnSpeechStartedCallback_m06948A7544025C68EC825EA0E8914891ED47232C (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnWillSpeakCallback_m392AF2EBF59375C69B9109BC0DB1368BDCD46417 (int32_t ___0_startIndex, int32_t ___1_stringLength, String_t* ___2_utteranceSpeechString, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS__ctor_m1505D901E15A38BAA502D6A8F2090A5B8C817661 (TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* TTS_InitializeVoices_m08243A61A3486297BBE75FA4BDB80EE1626CC19B (TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_SetupCallbacks_mCA63963038A81D3FCC278934857FAE280D05F298 (TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTS_iOS_GetNumberOfAvailableVoices_mFE3B222F971D8BF25D1616FB6F396000846D2FDC (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS_GetVoiceIdentifier_m662184DED8D6D161A809389F22715DCD5F74E44D (int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS_GetVoiceName_m4CBCB068AE657C02CAF6E07E5967D21ECCEFFA6E (int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS_GetVoiceLanguage_mE79761F941EAE41C182EE41F9ADB26AAE64C85B8 (int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TTS_iOS_GetVoiceQuality_m57A54212214CEE6AD6A4C163ABC74A70523602B6 (int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSynthesisVoice__ctor_m47D222B9C513792D8ECEAE9DF3D098BA0989EB23 (SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB* __this, String_t* ___0_identifier, String_t* ___1_name, String_t* ___2_language, int32_t ___3_quality, const RuntimeMethod* method) ;
+inline void ReadOnlyCollection_1__ctor_m2C82EFEE7548B1F2A8549847A99F9A3EDB4B740A (ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* __this, RuntimeObject* ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666*, RuntimeObject*, const RuntimeMethod*))ReadOnlyCollection_1__ctor_mF2D2ACE0752C3B97343B72328D49200F45C14B65_gshared)(__this, ___0_list, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtteranceCallback__ctor_m0CB01282D7D00ABFBA60562E47A1BB70CE2D757D (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringSpeechUtteranceCallback__ctor_m07F18C6B6B34C00BF5E58E4C08F3F8666EA26980 (StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_iOS_SetupCallbacks_m3B2F161C21871945A140F503A47A6186AC5E62F4 (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___0_speechUtteranceCancelled, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___1_speechUtteranceContinued, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___2_speechUtteranceFinished, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___3_speechUtterancePaused, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___4_speechUtteranceStarted, StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* ___5_willSpeakPartOfString, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_inline (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StringSpeechUtteranceCallback_Invoke_m050568D79BB5BD68866545F710567E505A7EADBB_inline (StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* __this, int32_t ___0_startIndex, int32_t ___1_stringLength, String_t* ___2_utteranceSpeechString, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_Speak_m32FDCA8A153BE77A455E98C06FE4EC070D8212F7 (String_t* ___0_speechString, SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* ___1_speechUtteranceParameters, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTS_GetVoiceForLanguage_m49CCC42E92F4E70C5761A721A3C418BEBDBE08B1 (String_t* ___0_language, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_Speak_mF93263D8A5F074F1B46A190E880C52F1EEF6D00F (String_t* ___0_speechString, RuntimeObject* ___1_voice, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtterance__ctor_m9A9E910C47B07189E9D8B6FA3E4A6C3C2826D2CA (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, String_t* ___0_speechString, SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* ___1_parameters, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_Speak_mEC5235A8E35B52251E05D3F48C5F0BBBE319D3CE (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* ___0_speechUtterance, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SpeechUtterance_get_Voice_m2EF7883A466B601B965B70CDD8BB44E291F411EB (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpeechUtterance_get_PitchMultiplier_m4788455CD07C40B3F36EAEE127B141DE32965856 (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpeechUtterance_get_PreUtteranceDelay_m69CC33A763004AABE96576190A18BC91F4CFF713 (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpeechUtterance_get_PostUtteranceDelay_mA1686DD44980595AEA2B99E49EA120C64D81E83B (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpeechUtterance_get_SpeechRate_m5C8DE8D73CC7C71B5B18BDD65C0961D795DFD8CC (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpeechUtterance_get_Volume_m1C71E5876A4C0AF018BD68930CFE86FB55E67D0F (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_iOS_Speak_m2702B10272D6C8407589B2946D342A78C7D52441 (String_t* ___0_textToSpeak, float ___1_pitchMultiplier, double ___2_preUtteranceDelay, double ___3_postUtteranceDelay, float ___4_speechRate, String_t* ___5_voiceIdentifier, float ___6_volume, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS_ContinueSpeaking_mB717EDBD0BF73BABA3AF45B7B2DD3B81A9207A0B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS_PauseSpeaking_m8977BE0E87FC44975FECEA3C11621CBD50C4396D (int32_t ___0_speechBoundary, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS_StopSpeaking_m26A4D4E0EE35A2C3E03F63712593ED6D71219283 (int32_t ___0_speechBoundary, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* TTS_get_Instance_mF4C6AAF1B8E24BCEBC83A0140E3A4A8082092800 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0__ctor_m3DE7DD683E725F75C2FD641DBB3CF10F36B9ADF1 (U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS_GetVoiceIdentifierFromLanguageCode_m83824B3AFBC533DAD6F8326DF59E01DD1644A03E (String_t* ___0_languageCode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* TTS_get_AllAvailableVoices_m502C8E46BE690C5AF9E9B6CEC8EBA90F6CC9B557 (const RuntimeMethod* method) ;
+inline void Func_2__ctor_m64F5C75523F31042E0D880C612A1D810F131D2F3 (Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline RuntimeObject* Enumerable_FirstOrDefault_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_mD0FC2297896C786BFC5494729FC552D6D97EEDC4 (RuntimeObject* ___0_source, Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2* ___1_predicate, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2*, const RuntimeMethod*))Enumerable_FirstOrDefault_TisRuntimeObject_mFACC750E4D7AF7B43F5B866C84F613B3ECC41994_gshared)(___0_source, ___1_predicate, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0__ctor_mBD3E9ECD6B010BDFD2389CDC2BBFD43480F3254E (U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E* __this, const RuntimeMethod* method) ;
+inline RuntimeObject* Enumerable_Where_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_m51534E8D0E2F72909B2458936753E12671ADD9E1 (RuntimeObject* ___0_source, Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2* ___1_predicate, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2*, const RuntimeMethod*))Enumerable_Where_TisRuntimeObject_m5DAF16724887B42DDBBF391C7F375749E8AA4AD7_gshared)(___0_source, ___1_predicate, method);
+}
+inline ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* Enumerable_ToArray_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_m468BBA1D7EC808F35A43B6101EFE07C0544FCB09 (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared)(___0_source, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS_get_CurrentLanguageCode_m52EDE478F596BFC67F48DA2EEEF771DD18ADC73E (const RuntimeMethod* method) ;
+inline void Func_2__ctor_m0A8666C9FF31C97F10CAC4D9D94B98B3CA394E7A (Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline RuntimeObject* Enumerable_Select_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_TisString_t_mF061228D6E275639109E7DA56E069BBD8EED6F32 (RuntimeObject* ___0_source, Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1* ___1_selector, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1*, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m67C538A5EBF57C4844107A8EF25DB2CAAFBAF8FB_gshared)(___0_source, ___1_selector, method);
+}
+inline RuntimeObject* Enumerable_Distinct_TisString_t_m1E99E758E2A5605D0EE48F5715C69AF1096BF99B (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Distinct_TisRuntimeObject_mBCF33F5AD0A25B1E57B46FF34330DF74278ADB9E_gshared)(___0_source, method);
+}
+inline void Func_2__ctor_m6A29D0BC8A4BCF6079AD2737B4119D3802B41814 (Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline RuntimeObject* Enumerable_OrderBy_TisString_t_TisString_t_m40B981D8BC975EB4FB16F2CFC3C9782D92493D2B (RuntimeObject* ___0_source, Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* ___1_keySelector, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93*, const RuntimeMethod*))Enumerable_OrderBy_TisRuntimeObject_TisRuntimeObject_m95A8A4774C308571D7F63FEFC3313E6ACE9C8049_gshared)(___0_source, ___1_keySelector, method);
+}
+inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194 (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared)(___0_source, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS_get_IsSpeaking_mC5F5F95DC9619E8C2085B2185438A8B3B11EC403 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS_get_IsPaused_mFB3FB3645753017612CB4BFEA881603498538BB8 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_iOS_get_UtteranceMinimumSpeechRate_m3EF9E7B9705CF9FF5EB70D17C6EEF5A3D9CA1A5D (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_iOS_get_UtteranceMaximumSpeechRate_m5209C71AA208B2FEE4B61B61C30DC9253CB09689 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_iOS_get_UtteranceDefaultSpeechRate_m244EDE7F737E008CBD164B4E1B61DE770F2EEF78 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC0374023748C4CA472B96DB83573755DA8608A38 (U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0__ctor_m74580B90DC135E0DCC28F917B5844D8EB45F83AB (U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_iOS_Try_m22C200877DF6A42845AB0DF5BD5EB48E2DE4DA83 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_action, String_t* ___1_errorMessage, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0__ctor_m8037EC648DAB16CBAE0B981C48E6A4FB83815528 (U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_1__ctor_m1ACD5DDE21D0D8CBD875CE811F2463FD5E626CA9 (U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+inline void Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22 (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline bool TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___0_action, bool ___1_fallbackValue, String_t* ___2_errorMessage, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*, bool, String_t*, const RuntimeMethod*))TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_gshared)(___0_action, ___1_fallbackValue, ___2_errorMessage, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85 (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___0_paramName, RuntimeObject* ___1_actualValue, String_t* ___2_message, const RuntimeMethod* method) ;
+inline void Func_1__ctor_m94E0C712F86101E026834DA318C3FFF46DE49C71 (Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_m94E0C712F86101E026834DA318C3FFF46DE49C71_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline float TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846 (Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* ___0_action, float ___1_fallbackValue, String_t* ___2_errorMessage, const RuntimeMethod* method)
+{
+	return ((  float (*) (Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7*, float, String_t*, const RuntimeMethod*))TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846_gshared)(___0_action, ___1_fallbackValue, ___2_errorMessage, method);
+}
+inline void Func_1__ctor_m8E73BFE6AD5362513E1302835EF279650B70333F (Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_m8E73BFE6AD5362513E1302835EF279650B70333F_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline int64_t TTS_iOS_Try_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m58A5CA1CEC9F527CE0190E85742E3C7BECE0CFBB (Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D* ___0_action, int64_t ___1_fallbackValue, String_t* ___2_errorMessage, const RuntimeMethod* method)
+{
+	return ((  int64_t (*) (Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D*, int64_t, String_t*, const RuntimeMethod*))TTS_iOS_Try_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m58A5CA1CEC9F527CE0190E85742E3C7BECE0CFBB_gshared)(___0_action, ___1_fallbackValue, ___2_errorMessage, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_m6A62CA4F8B8F45E4B332D36B45DD49EA03A1AA14 (U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49* __this, const RuntimeMethod* method) ;
+inline void Func_1__ctor_m27A68E928C1D9158EAAD261086B9BC424339327B (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+inline String_t* TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92 (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* ___0_action, String_t* ___1_fallbackValue, String_t* ___2_errorMessage, const RuntimeMethod* method)
+{
+	return ((  String_t* (*) (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C*, String_t*, String_t*, const RuntimeMethod*))TTS_iOS_Try_TisRuntimeObject_m8115E99B3D6387B8188C09DCF69B43FA56361F50_gshared)(___0_action, ___1_fallbackValue, ___2_errorMessage, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0__ctor_mCEE32C187254A754F9D39EFDDA98AD1CCE838B37 (U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0__ctor_mEC95A5F352C4D93416AC2B42C3B6F196F3609E36 (U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0__ctor_m7C66A6C0833DE278BFC98D966DDF1149DDF8B94C (U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060* __this, const RuntimeMethod* method) ;
+inline void Func_1__ctor_m475512287B9508E6D4721B3022635FED517234D1 (Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_m475512287B9508E6D4721B3022635FED517234D1_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline int32_t TTS_iOS_Try_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mBFC3CC301EBD0EAC00730721CF966D7FCA07FE4E (Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD* ___0_action, int32_t ___1_fallbackValue, String_t* ___2_errorMessage, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD*, int32_t, String_t*, const RuntimeMethod*))TTS_iOS_Try_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mBFC3CC301EBD0EAC00730721CF966D7FCA07FE4E_gshared)(___0_action, ___1_fallbackValue, ___2_errorMessage, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0__ctor_m169F3C44EF28B6838B1E17F84A2BADAC92C9D0C1 (U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_iOS__SetupCallbacks_m42D2C284FF965C7EB7891EA93D9FAB15D2A62B5D (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___0_speechUtteranceCancelled, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___1_speechUtteranceContinued, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___2_speechUtteranceFinished, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___3_speechUtterancePaused, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___4_speechUtteranceStarted, StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* ___5_willSpeakPartOfString, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_iOS__Speak_m3908585E5077A9D533AFC486BC071BE9EECE1795 (String_t* ___0_textToSpeak, float ___1_pitch, double ___2_preUtteranceDelay, double ___3_postUtteranceDelay, float ___4_speechRate, String_t* ___5_voiceIdentifier, float ___6_volume, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS__GetVoiceIdentifier_m8D23DF0591D70D71F5C081440C213F2C49057B63 (int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS__GetVoiceName_mA66ABF0C62C871B68F242F9AE28E901E7EBD0515 (int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS__GetVoiceLanguage_m56E2633F6196B1BA8B66940E2AD1AA441289D6A1 (int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TTS_iOS__GetVoiceQuality_mA17546A9C01BE1964E89708A425BC33CA1316CDB (int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS__GetVoiceIdentifierFromLanguageCode_m87C4F85A12D949B158417F3718A57347A249E625 (String_t* ___0_languageCode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_CacheAllVoices_m7647E57D5B6E93F510593992ECD53A2DF9E4D5C4 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_SetVoiceToCurrentUserLanguageCode_m84FBF80A838B8D4994981C6A962C486492FD59BA (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_UpdateVoiceDetails_m034459E3971F9C5E7B30E6DB45255DBEE5F6635B (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_UpdatePitch_m261834F7E97739BCE39FFC2439570FC33259E11A (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_get_UtteranceMinimumSpeechRate_m7C8D5535BC67E59AF35D9B2C63C38C94646151FF (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_get_UtteranceMaximumSpeechRate_m71F851EAA9F9551AB89E1930B7A6B3B273C1D4D3 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_UpdateSpeechRate_m10185C328763EEDC947FB772C332AFA019D35823 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_UpdateVolume_m5FA4E83D9F3188534016223221065F4F256607DD (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* InputField_get_onEndEdit_m92C86FF7CA6108C4B14392CED20C9ED9D39AD9A3 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_mE6251CCFD943EB114960F556A546E2777B18AC71 (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
+}
+inline List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* Enumerable_ToList_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_mAE10957E191A158B7A66A1D3A8E0D22287CF4EAC (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToList_TisRuntimeObject_m6456D63764F29E6B5B2422C3DE25113577CF51EE_gshared)(___0_source, method);
+}
+inline void List_1_Add_m4E0C9673C23A17551CA8C52B4BF4BF91D0C14F3F_inline (List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t59C7326CF286E434F3449FF05F3C343F4555285F*, RuntimeObject*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_get_CurrentLanguageCode_m840D33F5A747B14DC4A12F9BD54733F74FD8B047 (const RuntimeMethod* method) ;
+inline int32_t List_1_IndexOf_m0CC826A845D879D180EF1FCD9A4AB9BB6511DFC9 (List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t59C7326CF286E434F3449FF05F3C343F4555285F*, RuntimeObject*, const RuntimeMethod*))List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Slider_get_minValue_m4443221B443E357866F07B062CE39944134C794C (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Slider_get_maxValue_mB34C0C9337F5D00ECB2915E8008BCAEB8E7C5FB6 (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* __this, const RuntimeMethod* method) ;
+inline RuntimeObject* List_1_get_Item_m0AA80B0280F0F5BE09EE51F313EF27A812223EFA (List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (List_1_t59C7326CF286E434F3449FF05F3C343F4555285F*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+inline int32_t List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_inline (List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t59C7326CF286E434F3449FF05F3C343F4555285F*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_get_IsSpeaking_m15DE0F950261B45012DCBEDA13C551C8EA4AE051 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_get_IsPaused_mB933BAA0BC6CF92F008D29351E67A203F1D50D06 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Insert_mA279E748F06514A6D0B9B680D651D6A6C6BB561A (String_t* __this, int32_t ___0_startIndex, String_t* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_Speak_m6FD64B788CD410359046FE962D944D67A656ED8C (String_t* ___0_speechString, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_Continue_m492A14CE76E7C097B310EFE99FF86BDFCAA4D019 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_Pause_mA3E1EA36CB7D234CAA5143624F6CB7E58FE22DD2 (int32_t ___0_speechBoundary, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_Stop_m4FCF5E8942301D33DEF05F02A1B4B47DF0A42A6F (int32_t ___0_speechBoundary, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C void DEFAULT_CALL _SetupCallbacks(Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
+IL2CPP_EXTERN_C void DEFAULT_CALL _Speak(char*, float, double, double, float, char*, float);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL _PauseSpeakingEndOfWord();
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL _PauseSpeakingImmediate();
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL _ContinueSpeaking();
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL _StopSpeakingEndOfWord();
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL _StopSpeakingImmediate();
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL _isPaused();
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL _isSpeaking();
+IL2CPP_EXTERN_C float DEFAULT_CALL _UtteranceMinimumSpeechRate();
+IL2CPP_EXTERN_C float DEFAULT_CALL _UtteranceMaximumSpeechRate();
+IL2CPP_EXTERN_C float DEFAULT_CALL _UtteranceDefaultSpeechRate();
+IL2CPP_EXTERN_C int64_t DEFAULT_CALL _GetNumberOfAvailableVoices();
+IL2CPP_EXTERN_C char* DEFAULT_CALL _GetVoiceIdentifier(int32_t);
+IL2CPP_EXTERN_C char* DEFAULT_CALL _GetVoiceIdentifierFromLanguageCode(char*);
+IL2CPP_EXTERN_C char* DEFAULT_CALL _GetVoiceName(int32_t);
+IL2CPP_EXTERN_C char* DEFAULT_CALL _GetVoiceLanguage(int32_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL _GetVoiceQuality(int32_t);
+IL2CPP_EXTERN_C char* DEFAULT_CALL _CurrentLanguageCode();
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mC7CA174A23290C34424DF6D2733D5E64B92E5977 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____139C31411DD9880BAA0D32F627AEB1AF3C58FD9FA5791ED6F2811227643C086F_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____6FA95F03927571C9329D36446967BB0F902394424812E51E0103CBF824DB7564_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)502));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____6FA95F03927571C9329D36446967BB0F902394424812E51E0103CBF824DB7564_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)310));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121____139C31411DD9880BAA0D32F627AEB1AF3C58FD9FA5791ED6F2811227643C086F_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 7;
+		(&V_0)->___TotalTypes = 7;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 L_6 = V_0;
+		V_1 = L_6;
+		goto IL_005d;
+	}
+
+IL_005d:
+	{
+		MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 L_7 = V_1;
+		return L_7;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3C9D09F94200334DD5FA29A465481C7848AF4549 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC4249931E82CEBAEC1968B680E9E9A0DF4A946C6* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_pinvoke(const MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685& unmarshaled, MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_pinvoke_back(const MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_pinvoke& marshaled, MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_pinvoke_cleanup(MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_com(const MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685& unmarshaled, MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_com_back(const MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_com& marshaled, MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshal_com_cleanup(MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSynthesisVoice__ctor_m47D222B9C513792D8ECEAE9DF3D098BA0989EB23 (SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB* __this, String_t* ___0_identifier, String_t* ___1_name, String_t* ___2_language, int32_t ___3_quality, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		String_t* L_0 = ___0_identifier;
+		__this->____identifier = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____identifier), (void*)L_0);
+		String_t* L_1 = ___1_name;
+		__this->____name = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____name), (void*)L_1);
+		String_t* L_2 = ___2_language;
+		__this->____language = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____language), (void*)L_2);
+		int32_t L_3 = ___3_quality;
+		__this->____quality = L_3;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpeechSynthesisVoice_get_Identifier_m54692E056DC1693B0EF98281B740C204BC56CEC9 (SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB* __this, const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = __this->____identifier;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		String_t* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpeechSynthesisVoice_get_Name_m8A74E2356501C490C5D114336C6741A99EF59A67 (SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB* __this, const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = __this->____name;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		String_t* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpeechSynthesisVoice_get_Language_m14DB710EA1CC1F7E2378338173F3546BD365F1C0 (SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB* __this, const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = __this->____language;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		String_t* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpeechSynthesisVoice_get_Quality_m20D660BA2D2D07886ECEBBD07B641DBE7B0AE7D2 (SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____quality;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtterance__ctor_mF62B3DC0BD5A9917DFB846B7B4F7D75A4EE956AA (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, String_t* ___0_speechString, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		String_t* L_0 = ___0_speechString;
+		__this->___SpeechString = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SpeechString), (void*)L_0);
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_1 = (SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9*)il2cpp_codegen_object_new(SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9_il2cpp_TypeInfo_var);
+		SpeechUtteranceParameters__ctor_mB782BC9451171DF1131877C713D60FDB5E027419(L_1, NULL);
+		__this->____parameters = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____parameters), (void*)L_1);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtterance__ctor_m9A9E910C47B07189E9D8B6FA3E4A6C3C2826D2CA (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, String_t* ___0_speechString, SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* ___1_parameters, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		String_t* L_0 = ___0_speechString;
+		__this->___SpeechString = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SpeechString), (void*)L_0);
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_1 = ___1_parameters;
+		__this->____parameters = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____parameters), (void*)L_1);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpeechUtterance_get_PitchMultiplier_m4788455CD07C40B3F36EAEE127B141DE32965856 (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		NullCheck(L_0);
+		float L_1 = L_0->___PitchMultiplier;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtterance_set_PitchMultiplier_mD13437CAC4B7EE73B293881BC603DE19532BD31D (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		float L_1 = ___0_value;
+		NullCheck(L_0);
+		L_0->___PitchMultiplier = L_1;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpeechUtterance_get_PreUtteranceDelay_m69CC33A763004AABE96576190A18BC91F4CFF713 (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		NullCheck(L_0);
+		float L_1 = L_0->___PreUtteranceDelay;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtterance_set_PreUtteranceDelay_m5DDCFA90B7A0F401962A29E417CB9B77DB2D5CCD (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		float L_1 = ___0_value;
+		NullCheck(L_0);
+		L_0->___PreUtteranceDelay = L_1;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpeechUtterance_get_PostUtteranceDelay_mA1686DD44980595AEA2B99E49EA120C64D81E83B (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		NullCheck(L_0);
+		float L_1 = L_0->___PostUtteranceDelay;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtterance_set_PostUtteranceDelay_mDE3A4BA224CD461593DBF12240E5B4A5EC443319 (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		float L_1 = ___0_value;
+		NullCheck(L_0);
+		L_0->___PostUtteranceDelay = L_1;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpeechUtterance_get_SpeechRate_m5C8DE8D73CC7C71B5B18BDD65C0961D795DFD8CC (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		NullCheck(L_0);
+		float L_1 = L_0->___SpeechRate;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtterance_set_SpeechRate_m132869C65267692471C6887C51EBD41D717A5A97 (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		float L_1 = ___0_value;
+		NullCheck(L_0);
+		L_0->___SpeechRate = L_1;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SpeechUtterance_get_Voice_m2EF7883A466B601B965B70CDD8BB44E291F411EB (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) 
+{
+	RuntimeObject* V_0 = NULL;
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		NullCheck(L_0);
+		RuntimeObject* L_1 = L_0->___Voice;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		RuntimeObject* L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtterance_set_Voice_m124D1F7D690690C9C60BACC69E70DC05E4613521 (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		RuntimeObject* L_1 = ___0_value;
+		NullCheck(L_0);
+		L_0->___Voice = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&L_0->___Voice), (void*)L_1);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpeechUtterance_get_Volume_m1C71E5876A4C0AF018BD68930CFE86FB55E67D0F (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		NullCheck(L_0);
+		float L_1 = L_0->___Volume;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtterance_set_Volume_mFB5AEBC137BD20817319FFDC244B29C212F300B2 (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = __this->____parameters;
+		float L_1 = ___0_value;
+		NullCheck(L_0);
+		L_0->___Volume = L_1;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_Multicast(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* __this, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* currentDelegate = reinterpret_cast<SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl)((Il2CppObject*)currentDelegate->___method_code, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method));
+	}
+}
+void SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_OpenInst(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* __this, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr)(method);
+}
+void SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_OpenStatic(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* __this, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr)(method);
+}
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* __this, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)();
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
+	il2cppPInvokeFunc();
+
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtteranceCallback__ctor_m0CB01282D7D00ABFBA60562E47A1BB70CE2D757D (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method = ___1_method;
+	__this->___m_target = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 0;
+		if (isOpen)
+			__this->___invoke_impl = (intptr_t)&SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_OpenStatic;
+		else
+			{
+				__this->___invoke_impl = __this->___method_ptr;
+				__this->___method_code = (intptr_t)__this->___m_target;
+			}
+	}
+	else
+	{
+		if (___0_object == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl = __this->___method_ptr;
+		__this->___method_code = (intptr_t)__this->___m_target;
+	}
+	__this->___extra_arg = (intptr_t)&SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_Multicast;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* __this, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SpeechUtteranceCallback_BeginInvoke_mF4447C6B6C2CBD8EDE50EF8D2F19C2057EA9B24C (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
+{
+	void *__d_args[1] = {0};
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtteranceCallback_EndInvoke_m4B6F4E3493ED8633B563B893823B88AF3FD70E48 (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void StringSpeechUtteranceCallback_Invoke_m050568D79BB5BD68866545F710567E505A7EADBB_Multicast(StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* __this, int32_t ___0_startIndex, int32_t ___1_stringLength, String_t* ___2_utteranceSpeechString, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* currentDelegate = reinterpret_cast<StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, String_t*, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl)((Il2CppObject*)currentDelegate->___method_code, ___0_startIndex, ___1_stringLength, ___2_utteranceSpeechString, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method));
+	}
+}
+void StringSpeechUtteranceCallback_Invoke_m050568D79BB5BD68866545F710567E505A7EADBB_OpenInst(StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* __this, int32_t ___0_startIndex, int32_t ___1_stringLength, String_t* ___2_utteranceSpeechString, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (int32_t, int32_t, String_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr)(___0_startIndex, ___1_stringLength, ___2_utteranceSpeechString, method);
+}
+void StringSpeechUtteranceCallback_Invoke_m050568D79BB5BD68866545F710567E505A7EADBB_OpenStatic(StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* __this, int32_t ___0_startIndex, int32_t ___1_stringLength, String_t* ___2_utteranceSpeechString, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (int32_t, int32_t, String_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr)(___0_startIndex, ___1_stringLength, ___2_utteranceSpeechString, method);
+}
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE (StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* __this, int32_t ___0_startIndex, int32_t ___1_stringLength, String_t* ___2_utteranceSpeechString, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t, int32_t, char*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
+	char* ____2_utteranceSpeechString_marshaled = NULL;
+	____2_utteranceSpeechString_marshaled = il2cpp_codegen_marshal_string(___2_utteranceSpeechString);
+
+	il2cppPInvokeFunc(___0_startIndex, ___1_stringLength, ____2_utteranceSpeechString_marshaled);
+
+	il2cpp_codegen_marshal_free(____2_utteranceSpeechString_marshaled);
+	____2_utteranceSpeechString_marshaled = NULL;
+
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringSpeechUtteranceCallback__ctor_m07F18C6B6B34C00BF5E58E4C08F3F8666EA26980 (StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method = ___1_method;
+	__this->___m_target = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 3;
+		if (isOpen)
+			__this->___invoke_impl = (intptr_t)&StringSpeechUtteranceCallback_Invoke_m050568D79BB5BD68866545F710567E505A7EADBB_OpenStatic;
+		else
+			{
+				__this->___invoke_impl = __this->___method_ptr;
+				__this->___method_code = (intptr_t)__this->___m_target;
+			}
+	}
+	else
+	{
+		if (___0_object == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl = __this->___method_ptr;
+		__this->___method_code = (intptr_t)__this->___m_target;
+	}
+	__this->___extra_arg = (intptr_t)&StringSpeechUtteranceCallback_Invoke_m050568D79BB5BD68866545F710567E505A7EADBB_Multicast;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringSpeechUtteranceCallback_Invoke_m050568D79BB5BD68866545F710567E505A7EADBB (StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* __this, int32_t ___0_startIndex, int32_t ___1_stringLength, String_t* ___2_utteranceSpeechString, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, String_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_startIndex, ___1_stringLength, ___2_utteranceSpeechString, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringSpeechUtteranceCallback_BeginInvoke_mBA577724ACC1601F5B00D0A00374DB428C430272 (StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* __this, int32_t ___0_startIndex, int32_t ___1_stringLength, String_t* ___2_utteranceSpeechString, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___0_startIndex);
+	__d_args[1] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___1_stringLength);
+	__d_args[2] = ___2_utteranceSpeechString;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringSpeechUtteranceCallback_EndInvoke_m38B83A94A5980DF84256E6D202B74691F4EC0A58 (StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechUtteranceParameters__ctor_mB782BC9451171DF1131877C713D60FDB5E027419 (SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___PitchMultiplier = (1.0f);
+		__this->___PreUtteranceDelay = (0.0f);
+		__this->___PostUtteranceDelay = (0.0f);
+		__this->___Voice = (RuntimeObject*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Voice), (void*)(RuntimeObject*)NULL);
+		__this->___Volume = (1.0f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		float L_0;
+		L_0 = TTS_get_UtteranceDefaultSpeechRate_m45EC8C51FDACCEC93DC4E02B21633D4DF5E8524F(NULL);
+		__this->___SpeechRate = L_0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_TTS_OnSpeechCancelledCallback_mF8B8FD40DE476A3DBA21004C85396338B499DD1A()
+{
+	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	TTS_OnSpeechCancelledCallback_mF8B8FD40DE476A3DBA21004C85396338B499DD1A(NULL);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_TTS_OnSpeechContinuedCallback_mACAEA03DA6AF4E57F87C8BFF7D9ACF448EBD98E9()
+{
+	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	TTS_OnSpeechContinuedCallback_mACAEA03DA6AF4E57F87C8BFF7D9ACF448EBD98E9(NULL);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_TTS_OnSpeechFinishedCallback_mBC90A28B719FFC3395EA4320BDCAA4607EA10078()
+{
+	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	TTS_OnSpeechFinishedCallback_mBC90A28B719FFC3395EA4320BDCAA4607EA10078(NULL);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_TTS_OnSpeechPausedCallback_m123F66DA6E5D917809F8AC81E98E381BC7463BCC()
+{
+	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	TTS_OnSpeechPausedCallback_m123F66DA6E5D917809F8AC81E98E381BC7463BCC(NULL);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_TTS_OnSpeechStartedCallback_m06948A7544025C68EC825EA0E8914891ED47232C()
+{
+	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	TTS_OnSpeechStartedCallback_m06948A7544025C68EC825EA0E8914891ED47232C(NULL);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_TTS_OnWillSpeakCallback_m392AF2EBF59375C69B9109BC0DB1368BDCD46417(int32_t ___0_startIndex, int32_t ___1_stringLength, char* ___2_utteranceSpeechString)
+{
+	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	String_t* ____2_utteranceSpeechString_unmarshaled = NULL;
+	____2_utteranceSpeechString_unmarshaled = il2cpp_codegen_marshal_string_result(___2_utteranceSpeechString);
+
+	TTS_OnWillSpeakCallback_m392AF2EBF59375C69B9109BC0DB1368BDCD46417(___0_startIndex, ___1_stringLength, ____2_utteranceSpeechString_unmarshaled, NULL);
+
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* TTS_get_Instance_mF4C6AAF1B8E24BCEBC83A0140E3A4A8082092800 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* V_0 = NULL;
+	TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* G_B2_0 = NULL;
+	TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* G_B1_0 = NULL;
+	{
+		TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* L_0 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->____instance;
+		TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0015;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* L_2 = (TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51*)il2cpp_codegen_object_new(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		TTS__ctor_m1505D901E15A38BAA502D6A8F2090A5B8C817661(L_2, NULL);
+		TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* L_3 = L_2;
+		((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->____instance = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->____instance), (void*)L_3);
+		G_B2_0 = L_3;
+	}
+
+IL_0015:
+	{
+		V_0 = G_B2_0;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS__ctor_m1505D901E15A38BAA502D6A8F2090A5B8C817661 (TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* L_0;
+		L_0 = TTS_InitializeVoices_m08243A61A3486297BBE75FA4BDB80EE1626CC19B(__this, NULL);
+		__this->____allAvailableVoices = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____allAvailableVoices), (void*)L_0);
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_1 = (SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9*)il2cpp_codegen_object_new(SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9_il2cpp_TypeInfo_var);
+		SpeechUtteranceParameters__ctor_mB782BC9451171DF1131877C713D60FDB5E027419(L_1, NULL);
+		__this->____defaultParameters = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____defaultParameters), (void*)L_1);
+		TTS_SetupCallbacks_mCA63963038A81D3FCC278934857FAE280D05F298(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* TTS_InitializeVoices_m08243A61A3486297BBE75FA4BDB80EE1626CC19B (TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1__ctor_m2C82EFEE7548B1F2A8549847A99F9A3EDB4B740A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_InitializeVoices_m08243A61A3486297BBE75FA4BDB80EE1626CC19B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t V_0 = 0;
+	ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* V_1 = NULL;
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	String_t* V_4 = NULL;
+	String_t* V_5 = NULL;
+	int32_t V_6 = 0;
+	bool V_7 = false;
+	ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* V_8 = NULL;
+	{
+		int64_t L_0;
+		L_0 = TTS_iOS_GetNumberOfAvailableVoices_mFE3B222F971D8BF25D1616FB6F396000846D2FDC(NULL);
+		V_0 = L_0;
+		int64_t L_1 = V_0;
+		if ((int64_t)(L_1) > INTPTR_MAX) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), TTS_InitializeVoices_m08243A61A3486297BBE75FA4BDB80EE1626CC19B_RuntimeMethod_var);
+		ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* L_2 = (ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57*)(ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57*)SZArrayNew(ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57_il2cpp_TypeInfo_var, (uint32_t)((intptr_t)L_1));
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0047;
+	}
+
+IL_0013:
+	{
+		int32_t L_3 = V_2;
+		String_t* L_4;
+		L_4 = TTS_iOS_GetVoiceIdentifier_m662184DED8D6D161A809389F22715DCD5F74E44D(L_3, NULL);
+		V_3 = L_4;
+		int32_t L_5 = V_2;
+		String_t* L_6;
+		L_6 = TTS_iOS_GetVoiceName_m4CBCB068AE657C02CAF6E07E5967D21ECCEFFA6E(L_5, NULL);
+		V_4 = L_6;
+		int32_t L_7 = V_2;
+		String_t* L_8;
+		L_8 = TTS_iOS_GetVoiceLanguage_mE79761F941EAE41C182EE41F9ADB26AAE64C85B8(L_7, NULL);
+		V_5 = L_8;
+		int32_t L_9 = V_2;
+		int32_t L_10;
+		L_10 = TTS_iOS_GetVoiceQuality_m57A54212214CEE6AD6A4C163ABC74A70523602B6(L_9, NULL);
+		V_6 = L_10;
+		ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* L_11 = V_1;
+		int32_t L_12 = V_2;
+		String_t* L_13 = V_3;
+		String_t* L_14 = V_4;
+		String_t* L_15 = V_5;
+		int32_t L_16 = V_6;
+		SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB* L_17 = (SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB*)il2cpp_codegen_object_new(SpeechSynthesisVoice_t574A2C7049AC3A8D22B7BF7879ED28264E87FABB_il2cpp_TypeInfo_var);
+		SpeechSynthesisVoice__ctor_m47D222B9C513792D8ECEAE9DF3D098BA0989EB23(L_17, L_13, L_14, L_15, L_16, NULL);
+		NullCheck(L_11);
+		ArrayElementTypeCheck (L_11, L_17);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_12), (RuntimeObject*)L_17);
+		int32_t L_18 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_18, 1));
+	}
+
+IL_0047:
+	{
+		int32_t L_19 = V_2;
+		int64_t L_20 = V_0;
+		V_7 = (bool)((((int64_t)((int64_t)L_19)) < ((int64_t)L_20))? 1 : 0);
+		bool L_21 = V_7;
+		if (L_21)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* L_22 = V_1;
+		ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* L_23 = (ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666*)il2cpp_codegen_object_new(ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666_il2cpp_TypeInfo_var);
+		ReadOnlyCollection_1__ctor_m2C82EFEE7548B1F2A8549847A99F9A3EDB4B740A(L_23, (RuntimeObject*)L_22, ReadOnlyCollection_1__ctor_m2C82EFEE7548B1F2A8549847A99F9A3EDB4B740A_RuntimeMethod_var);
+		V_8 = L_23;
+		goto IL_005c;
+	}
+
+IL_005c:
+	{
+		ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* L_24 = V_8;
+		return L_24;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_SetupCallbacks_mCA63963038A81D3FCC278934857FAE280D05F298 (TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_OnSpeechCancelledCallback_mF8B8FD40DE476A3DBA21004C85396338B499DD1A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_OnSpeechContinuedCallback_mACAEA03DA6AF4E57F87C8BFF7D9ACF448EBD98E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_OnSpeechFinishedCallback_mBC90A28B719FFC3395EA4320BDCAA4607EA10078_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_OnSpeechPausedCallback_m123F66DA6E5D917809F8AC81E98E381BC7463BCC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_OnSpeechStartedCallback_m06948A7544025C68EC825EA0E8914891ED47232C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_OnWillSpeakCallback_m392AF2EBF59375C69B9109BC0DB1368BDCD46417_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_0 = (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)il2cpp_codegen_object_new(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E_il2cpp_TypeInfo_var);
+		SpeechUtteranceCallback__ctor_m0CB01282D7D00ABFBA60562E47A1BB70CE2D757D(L_0, NULL, (intptr_t)((void*)TTS_OnSpeechCancelledCallback_mF8B8FD40DE476A3DBA21004C85396338B499DD1A_RuntimeMethod_var), NULL);
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_1 = (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)il2cpp_codegen_object_new(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E_il2cpp_TypeInfo_var);
+		SpeechUtteranceCallback__ctor_m0CB01282D7D00ABFBA60562E47A1BB70CE2D757D(L_1, NULL, (intptr_t)((void*)TTS_OnSpeechContinuedCallback_mACAEA03DA6AF4E57F87C8BFF7D9ACF448EBD98E9_RuntimeMethod_var), NULL);
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_2 = (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)il2cpp_codegen_object_new(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E_il2cpp_TypeInfo_var);
+		SpeechUtteranceCallback__ctor_m0CB01282D7D00ABFBA60562E47A1BB70CE2D757D(L_2, NULL, (intptr_t)((void*)TTS_OnSpeechFinishedCallback_mBC90A28B719FFC3395EA4320BDCAA4607EA10078_RuntimeMethod_var), NULL);
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_3 = (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)il2cpp_codegen_object_new(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E_il2cpp_TypeInfo_var);
+		SpeechUtteranceCallback__ctor_m0CB01282D7D00ABFBA60562E47A1BB70CE2D757D(L_3, NULL, (intptr_t)((void*)TTS_OnSpeechPausedCallback_m123F66DA6E5D917809F8AC81E98E381BC7463BCC_RuntimeMethod_var), NULL);
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_4 = (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)il2cpp_codegen_object_new(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E_il2cpp_TypeInfo_var);
+		SpeechUtteranceCallback__ctor_m0CB01282D7D00ABFBA60562E47A1BB70CE2D757D(L_4, NULL, (intptr_t)((void*)TTS_OnSpeechStartedCallback_m06948A7544025C68EC825EA0E8914891ED47232C_RuntimeMethod_var), NULL);
+		StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* L_5 = (StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE*)il2cpp_codegen_object_new(StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE_il2cpp_TypeInfo_var);
+		StringSpeechUtteranceCallback__ctor_m07F18C6B6B34C00BF5E58E4C08F3F8666EA26980(L_5, NULL, (intptr_t)((void*)TTS_OnWillSpeakCallback_m392AF2EBF59375C69B9109BC0DB1368BDCD46417_RuntimeMethod_var), NULL);
+		TTS_iOS_SetupCallbacks_m3B2F161C21871945A140F503A47A6186AC5E62F4(L_0, L_1, L_2, L_3, L_4, L_5, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnSpeechCancelledCallback_mF8B8FD40DE476A3DBA21004C85396338B499DD1A (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_0 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechCancelled;
+		V_0 = (bool)((!(((RuntimeObject*)(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_2 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechCancelled;
+		NullCheck(L_2);
+		SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_inline(L_2, NULL);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnSpeechContinuedCallback_mACAEA03DA6AF4E57F87C8BFF7D9ACF448EBD98E9 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_0 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechContinued;
+		V_0 = (bool)((!(((RuntimeObject*)(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_2 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechContinued;
+		NullCheck(L_2);
+		SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_inline(L_2, NULL);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnSpeechFinishedCallback_mBC90A28B719FFC3395EA4320BDCAA4607EA10078 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_0 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechFinished;
+		V_0 = (bool)((!(((RuntimeObject*)(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_2 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechFinished;
+		NullCheck(L_2);
+		SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_inline(L_2, NULL);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnSpeechPausedCallback_m123F66DA6E5D917809F8AC81E98E381BC7463BCC (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_0 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechPaused;
+		V_0 = (bool)((!(((RuntimeObject*)(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_2 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechPaused;
+		NullCheck(L_2);
+		SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_inline(L_2, NULL);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnSpeechStartedCallback_m06948A7544025C68EC825EA0E8914891ED47232C (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_0 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechStarted;
+		V_0 = (bool)((!(((RuntimeObject*)(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_2 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechStarted;
+		NullCheck(L_2);
+		SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_inline(L_2, NULL);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_OnWillSpeakCallback_m392AF2EBF59375C69B9109BC0DB1368BDCD46417 (int32_t ___0_startIndex, int32_t ___1_stringLength, String_t* ___2_utteranceSpeechString, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* L_0 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnWillSpeak;
+		V_0 = (bool)((!(((RuntimeObject*)(StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* L_2 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnWillSpeak;
+		int32_t L_3 = ___0_startIndex;
+		int32_t L_4 = ___1_stringLength;
+		String_t* L_5 = ___2_utteranceSpeechString;
+		NullCheck(L_2);
+		StringSpeechUtteranceCallback_Invoke_m050568D79BB5BD68866545F710567E505A7EADBB_inline(L_2, L_3, L_4, L_5, NULL);
+	}
+
+IL_001b:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_Speak_m6FD64B788CD410359046FE962D944D67A656ED8C (String_t* ___0_speechString, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_speechString;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_1;
+		L_1 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		TTS_Speak_m32FDCA8A153BE77A455E98C06FE4EC070D8212F7(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_Speak_mA58AF8691BDD9BB5046BB8B230001243F5B8E505 (String_t* ___0_speechString, String_t* ___1_language, const RuntimeMethod* method) 
+{
+	RuntimeObject* V_0 = NULL;
+	{
+		String_t* L_0 = ___1_language;
+		RuntimeObject* L_1;
+		L_1 = TTS_GetVoiceForLanguage_m49CCC42E92F4E70C5761A721A3C418BEBDBE08B1(L_0, NULL);
+		V_0 = L_1;
+		String_t* L_2 = ___0_speechString;
+		RuntimeObject* L_3 = V_0;
+		TTS_Speak_mF93263D8A5F074F1B46A190E880C52F1EEF6D00F(L_2, L_3, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_Speak_mF93263D8A5F074F1B46A190E880C52F1EEF6D00F (String_t* ___0_speechString, RuntimeObject* ___1_voice, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* V_0 = NULL;
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0 = (SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9*)il2cpp_codegen_object_new(SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9_il2cpp_TypeInfo_var);
+		SpeechUtteranceParameters__ctor_mB782BC9451171DF1131877C713D60FDB5E027419(L_0, NULL);
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_1 = L_0;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_2;
+		L_2 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		NullCheck(L_2);
+		float L_3 = L_2->___PitchMultiplier;
+		NullCheck(L_1);
+		L_1->___PitchMultiplier = L_3;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_4 = L_1;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_5;
+		L_5 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		NullCheck(L_5);
+		float L_6 = L_5->___PreUtteranceDelay;
+		NullCheck(L_4);
+		L_4->___PreUtteranceDelay = L_6;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_7 = L_4;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_8;
+		L_8 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		NullCheck(L_8);
+		float L_9 = L_8->___PostUtteranceDelay;
+		NullCheck(L_7);
+		L_7->___PostUtteranceDelay = L_9;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_10 = L_7;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_11;
+		L_11 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		NullCheck(L_11);
+		float L_12 = L_11->___SpeechRate;
+		NullCheck(L_10);
+		L_10->___SpeechRate = L_12;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_13 = L_10;
+		RuntimeObject* L_14 = ___1_voice;
+		NullCheck(L_13);
+		L_13->___Voice = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&L_13->___Voice), (void*)L_14);
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_15 = L_13;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_16;
+		L_16 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		NullCheck(L_16);
+		float L_17 = L_16->___Volume;
+		NullCheck(L_15);
+		L_15->___Volume = L_17;
+		V_0 = L_15;
+		String_t* L_18 = ___0_speechString;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_19 = V_0;
+		TTS_Speak_m32FDCA8A153BE77A455E98C06FE4EC070D8212F7(L_18, L_19, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_Speak_m32FDCA8A153BE77A455E98C06FE4EC070D8212F7 (String_t* ___0_speechString, SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* ___1_speechUtteranceParameters, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* V_0 = NULL;
+	{
+		String_t* L_0 = ___0_speechString;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_1 = ___1_speechUtteranceParameters;
+		SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* L_2 = (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E*)il2cpp_codegen_object_new(SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E_il2cpp_TypeInfo_var);
+		SpeechUtterance__ctor_m9A9E910C47B07189E9D8B6FA3E4A6C3C2826D2CA(L_2, L_0, L_1, NULL);
+		V_0 = L_2;
+		SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* L_3 = V_0;
+		TTS_Speak_mEC5235A8E35B52251E05D3F48C5F0BBBE319D3CE(L_3, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_Speak_mEC5235A8E35B52251E05D3F48C5F0BBBE319D3CE (SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* ___0_speechUtterance, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	{
+		SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* L_0 = ___0_speechUtterance;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = SpeechUtterance_get_Voice_m2EF7883A466B601B965B70CDD8BB44E291F411EB(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* L_2 = ___0_speechUtterance;
+		NullCheck(L_2);
+		RuntimeObject* L_3;
+		L_3 = SpeechUtterance_get_Voice_m2EF7883A466B601B965B70CDD8BB44E291F411EB(L_2, NULL);
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = InterfaceFuncInvoker0< String_t* >::Invoke(0, ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var, L_3);
+		G_B3_0 = L_4;
+		goto IL_001b;
+	}
+
+IL_0016:
+	{
+		String_t* L_5 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		G_B3_0 = L_5;
+	}
+
+IL_001b:
+	{
+		V_0 = G_B3_0;
+		SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* L_6 = ___0_speechUtterance;
+		NullCheck(L_6);
+		String_t* L_7 = L_6->___SpeechString;
+		SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* L_8 = ___0_speechUtterance;
+		NullCheck(L_8);
+		float L_9;
+		L_9 = SpeechUtterance_get_PitchMultiplier_m4788455CD07C40B3F36EAEE127B141DE32965856(L_8, NULL);
+		SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* L_10 = ___0_speechUtterance;
+		NullCheck(L_10);
+		float L_11;
+		L_11 = SpeechUtterance_get_PreUtteranceDelay_m69CC33A763004AABE96576190A18BC91F4CFF713(L_10, NULL);
+		SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* L_12 = ___0_speechUtterance;
+		NullCheck(L_12);
+		float L_13;
+		L_13 = SpeechUtterance_get_PostUtteranceDelay_mA1686DD44980595AEA2B99E49EA120C64D81E83B(L_12, NULL);
+		SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* L_14 = ___0_speechUtterance;
+		NullCheck(L_14);
+		float L_15;
+		L_15 = SpeechUtterance_get_SpeechRate_m5C8DE8D73CC7C71B5B18BDD65C0961D795DFD8CC(L_14, NULL);
+		String_t* L_16 = V_0;
+		SpeechUtterance_t9F336FF55B1A6923A924F37126807B87704D3D2E* L_17 = ___0_speechUtterance;
+		NullCheck(L_17);
+		float L_18;
+		L_18 = SpeechUtterance_get_Volume_m1C71E5876A4C0AF018BD68930CFE86FB55E67D0F(L_17, NULL);
+		TTS_iOS_Speak_m2702B10272D6C8407589B2946D342A78C7D52441(L_7, L_9, ((double)L_11), ((double)L_13), L_15, L_16, L_18, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_Continue_m492A14CE76E7C097B310EFE99FF86BDFCAA4D019 (const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		bool L_0;
+		L_0 = TTS_iOS_ContinueSpeaking_mB717EDBD0BF73BABA3AF45B7B2DD3B81A9207A0B(NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_Pause_m9E0655A724754FF99779DB45014D83D7645CB751 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		int32_t L_0 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___DefaultSpeechBoundaryForPause;
+		bool L_1;
+		L_1 = TTS_iOS_PauseSpeaking_m8977BE0E87FC44975FECEA3C11621CBD50C4396D(L_0, NULL);
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_Pause_mA3E1EA36CB7D234CAA5143624F6CB7E58FE22DD2 (int32_t ___0_speechBoundary, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		int32_t L_0 = ___0_speechBoundary;
+		bool L_1;
+		L_1 = TTS_iOS_PauseSpeaking_m8977BE0E87FC44975FECEA3C11621CBD50C4396D(L_0, NULL);
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_Stop_mC20A47C22FEB31A539E35B2665EA5C9080F31853 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		int32_t L_0 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___DefaultSpeechBoundaryForStop;
+		bool L_1;
+		L_1 = TTS_iOS_StopSpeaking_m26A4D4E0EE35A2C3E03F63712593ED6D71219283(L_0, NULL);
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_Stop_m4FCF5E8942301D33DEF05F02A1B4B47DF0A42A6F (int32_t ___0_speechBoundary, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		int32_t L_0 = ___0_speechBoundary;
+		bool L_1;
+		L_1 = TTS_iOS_StopSpeaking_m26A4D4E0EE35A2C3E03F63712593ED6D71219283(L_0, NULL);
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* TTS_get_AllAvailableVoices_m502C8E46BE690C5AF9E9B6CEC8EBA90F6CC9B557 (const RuntimeMethod* method) 
+{
+	ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* V_0 = NULL;
+	{
+		TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* L_0;
+		L_0 = TTS_get_Instance_mF4C6AAF1B8E24BCEBC83A0140E3A4A8082092800(NULL);
+		NullCheck(L_0);
+		ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* L_1 = L_0->____allAvailableVoices;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTS_GetVoiceForLanguage_m49CCC42E92F4E70C5761A721A3C418BEBDBE08B1 (String_t* ___0_language, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_FirstOrDefault_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_mD0FC2297896C786BFC5494729FC552D6D97EEDC4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass32_0_U3CGetVoiceForLanguageU3Eb__0_m44ACA32FD4369A08140FDEA3E66FB1C56999BC87_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	{
+		U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F* L_0 = (U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass32_0__ctor_m3DE7DD683E725F75C2FD641DBB3CF10F36B9ADF1(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F* L_1 = V_0;
+		String_t* L_2 = ___0_language;
+		String_t* L_3;
+		L_3 = TTS_iOS_GetVoiceIdentifierFromLanguageCode_m83824B3AFBC533DAD6F8326DF59E01DD1644A03E(L_2, NULL);
+		NullCheck(L_1);
+		L_1->___voiceId = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___voiceId), (void*)L_3);
+		ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* L_4;
+		L_4 = TTS_get_AllAvailableVoices_m502C8E46BE690C5AF9E9B6CEC8EBA90F6CC9B557(NULL);
+		U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F* L_5 = V_0;
+		Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2* L_6 = (Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2*)il2cpp_codegen_object_new(Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2_il2cpp_TypeInfo_var);
+		Func_2__ctor_m64F5C75523F31042E0D880C612A1D810F131D2F3(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass32_0_U3CGetVoiceForLanguageU3Eb__0_m44ACA32FD4369A08140FDEA3E66FB1C56999BC87_RuntimeMethod_var), NULL);
+		RuntimeObject* L_7;
+		L_7 = Enumerable_FirstOrDefault_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_mD0FC2297896C786BFC5494729FC552D6D97EEDC4(L_4, L_6, Enumerable_FirstOrDefault_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_mD0FC2297896C786BFC5494729FC552D6D97EEDC4_RuntimeMethod_var);
+		V_1 = L_7;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		RuntimeObject* L_8 = V_1;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* TTS_GetAllVoicesForLanguage_m057D081B81CD11F87FE1380997C41FFF64F56A02 (String_t* ___0_language, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToArray_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_m468BBA1D7EC808F35A43B6101EFE07C0544FCB09_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Where_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_m51534E8D0E2F72909B2458936753E12671ADD9E1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass33_0_U3CGetAllVoicesForLanguageU3Eb__0_m4E9094633677CCD05C78D9B02C285A62F01AA065_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E* V_0 = NULL;
+	ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* V_1 = NULL;
+	{
+		U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E* L_0 = (U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass33_0__ctor_mBD3E9ECD6B010BDFD2389CDC2BBFD43480F3254E(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E* L_1 = V_0;
+		String_t* L_2 = ___0_language;
+		NullCheck(L_1);
+		L_1->___language = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___language), (void*)L_2);
+		ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* L_3;
+		L_3 = TTS_get_AllAvailableVoices_m502C8E46BE690C5AF9E9B6CEC8EBA90F6CC9B557(NULL);
+		U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E* L_4 = V_0;
+		Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2* L_5 = (Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2*)il2cpp_codegen_object_new(Func_2_t431D4A79F881CF6B6CE84F060D8EE88269F36CA2_il2cpp_TypeInfo_var);
+		Func_2__ctor_m64F5C75523F31042E0D880C612A1D810F131D2F3(L_5, L_4, (intptr_t)((void*)U3CU3Ec__DisplayClass33_0_U3CGetAllVoicesForLanguageU3Eb__0_m4E9094633677CCD05C78D9B02C285A62F01AA065_RuntimeMethod_var), NULL);
+		RuntimeObject* L_6;
+		L_6 = Enumerable_Where_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_m51534E8D0E2F72909B2458936753E12671ADD9E1(L_3, L_5, Enumerable_Where_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_m51534E8D0E2F72909B2458936753E12671ADD9E1_RuntimeMethod_var);
+		ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* L_7;
+		L_7 = Enumerable_ToArray_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_m468BBA1D7EC808F35A43B6101EFE07C0544FCB09(L_6, Enumerable_ToArray_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_m468BBA1D7EC808F35A43B6101EFE07C0544FCB09_RuntimeMethod_var);
+		V_1 = L_7;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		ISpeechSynthesisVoiceU5BU5D_t847291C493BAF725899B499D03254500D4348A57* L_8 = V_1;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_get_CurrentLanguageCode_m840D33F5A747B14DC4A12F9BD54733F74FD8B047 (const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0;
+		L_0 = TTS_iOS_get_CurrentLanguageCode_m52EDE478F596BFC67F48DA2EEEF771DD18ADC73E(NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		String_t* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* TTS_GetAllAvailableLanguages_m2DFE88D57602339F71F62B0F621E99C0D905BE14 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Distinct_TisString_t_m1E99E758E2A5605D0EE48F5715C69AF1096BF99B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_OrderBy_TisString_t_TisString_t_m40B981D8BC975EB4FB16F2CFC3C9782D92493D2B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_TisString_t_mF061228D6E275639109E7DA56E069BBD8EED6F32_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CGetAllAvailableLanguagesU3Eb__36_0_m485F45C7D3481F44CE9C265098939DCEA4C34E91_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CGetAllAvailableLanguagesU3Eb__36_1_m63CF2F0A67257F6707577235D46A26FA6C3D8EFD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_0 = NULL;
+	Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1* G_B2_0 = NULL;
+	ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* G_B2_1 = NULL;
+	Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1* G_B1_0 = NULL;
+	ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* G_B1_1 = NULL;
+	Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* G_B4_0 = NULL;
+	RuntimeObject* G_B4_1 = NULL;
+	Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* G_B3_0 = NULL;
+	RuntimeObject* G_B3_1 = NULL;
+	{
+		ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* L_0;
+		L_0 = TTS_get_AllAvailableVoices_m502C8E46BE690C5AF9E9B6CEC8EBA90F6CC9B557(NULL);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var);
+		Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1* L_1 = ((U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var))->___U3CU3E9__36_0;
+		Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1* L_2 = L_1;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			G_B2_1 = L_0;
+			goto IL_0025;
+		}
+		G_B1_0 = L_2;
+		G_B1_1 = L_0;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3* L_3 = ((U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1* L_4 = (Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1*)il2cpp_codegen_object_new(Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1_il2cpp_TypeInfo_var);
+		Func_2__ctor_m0A8666C9FF31C97F10CAC4D9D94B98B3CA394E7A(L_4, L_3, (intptr_t)((void*)U3CU3Ec_U3CGetAllAvailableLanguagesU3Eb__36_0_m485F45C7D3481F44CE9C265098939DCEA4C34E91_RuntimeMethod_var), NULL);
+		Func_2_t193D440781EA19F95B0FE3B122D46D8DF72E2AB1* L_5 = L_4;
+		((U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var))->___U3CU3E9__36_0 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var))->___U3CU3E9__36_0), (void*)L_5);
+		G_B2_0 = L_5;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0025:
+	{
+		RuntimeObject* L_6;
+		L_6 = Enumerable_Select_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_TisString_t_mF061228D6E275639109E7DA56E069BBD8EED6F32(G_B2_1, G_B2_0, Enumerable_Select_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_TisString_t_mF061228D6E275639109E7DA56E069BBD8EED6F32_RuntimeMethod_var);
+		RuntimeObject* L_7;
+		L_7 = Enumerable_Distinct_TisString_t_m1E99E758E2A5605D0EE48F5715C69AF1096BF99B(L_6, Enumerable_Distinct_TisString_t_m1E99E758E2A5605D0EE48F5715C69AF1096BF99B_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var);
+		Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* L_8 = ((U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var))->___U3CU3E9__36_1;
+		Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* L_9 = L_8;
+		if (L_9)
+		{
+			G_B4_0 = L_9;
+			G_B4_1 = L_7;
+			goto IL_004e;
+		}
+		G_B3_0 = L_9;
+		G_B3_1 = L_7;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3* L_10 = ((U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* L_11 = (Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93*)il2cpp_codegen_object_new(Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93_il2cpp_TypeInfo_var);
+		Func_2__ctor_m6A29D0BC8A4BCF6079AD2737B4119D3802B41814(L_11, L_10, (intptr_t)((void*)U3CU3Ec_U3CGetAllAvailableLanguagesU3Eb__36_1_m63CF2F0A67257F6707577235D46A26FA6C3D8EFD_RuntimeMethod_var), NULL);
+		Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* L_12 = L_11;
+		((U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var))->___U3CU3E9__36_1 = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var))->___U3CU3E9__36_1), (void*)L_12);
+		G_B4_0 = L_12;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_004e:
+	{
+		RuntimeObject* L_13;
+		L_13 = Enumerable_OrderBy_TisString_t_TisString_t_m40B981D8BC975EB4FB16F2CFC3C9782D92493D2B(G_B4_1, G_B4_0, Enumerable_OrderBy_TisString_t_TisString_t_m40B981D8BC975EB4FB16F2CFC3C9782D92493D2B_RuntimeMethod_var);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14;
+		L_14 = Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194(L_13, Enumerable_ToArray_TisString_t_m3B23EE2DD15B2996E7D2ECA6E74696DA892AA194_RuntimeMethod_var);
+		V_0 = L_14;
+		goto IL_005b;
+	}
+
+IL_005b:
+	{
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = V_0;
+		return L_15;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* V_0 = NULL;
+	{
+		TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51* L_0 = ((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->____instance;
+		NullCheck(L_0);
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_1 = L_0->____defaultParameters;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_get_IsSpeaking_m15DE0F950261B45012DCBEDA13C551C8EA4AE051 (const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		bool L_0;
+		L_0 = TTS_iOS_get_IsSpeaking_mC5F5F95DC9619E8C2085B2185438A8B3B11EC403(NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_get_IsPaused_mB933BAA0BC6CF92F008D29351E67A203F1D50D06 (const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		bool L_0;
+		L_0 = TTS_iOS_get_IsPaused_mFB3FB3645753017612CB4BFEA881603498538BB8(NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_get_UtteranceMinimumSpeechRate_m7C8D5535BC67E59AF35D9B2C63C38C94646151FF (const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0;
+		L_0 = TTS_iOS_get_UtteranceMinimumSpeechRate_m3EF9E7B9705CF9FF5EB70D17C6EEF5A3D9CA1A5D(NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_get_UtteranceMaximumSpeechRate_m71F851EAA9F9551AB89E1930B7A6B3B273C1D4D3 (const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0;
+		L_0 = TTS_iOS_get_UtteranceMaximumSpeechRate_m5209C71AA208B2FEE4B61B61C30DC9253CB09689(NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_get_UtteranceDefaultSpeechRate_m45EC8C51FDACCEC93DC4E02B21633D4DF5E8524F (const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0;
+		L_0 = TTS_iOS_get_UtteranceDefaultSpeechRate_m244EDE7F737E008CBD164B4E1B61DE770F2EEF78(NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m8E68893B321C76258F4EA10F4FDF7CE8288BDF68 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3* L_0 = (U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3*)il2cpp_codegen_object_new(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_mC0374023748C4CA472B96DB83573755DA8608A38(L_0, NULL);
+		((U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var))->___U3CU3E9 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3_il2cpp_TypeInfo_var))->___U3CU3E9), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC0374023748C4CA472B96DB83573755DA8608A38 (U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CGetAllAvailableLanguagesU3Eb__36_0_m485F45C7D3481F44CE9C265098939DCEA4C34E91 (U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3* __this, RuntimeObject* ___0_voice, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = ___0_voice;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(2, ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var, L_0);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CGetAllAvailableLanguagesU3Eb__36_1_m63CF2F0A67257F6707577235D46A26FA6C3D8EFD (U3CU3Ec_tC2C75AD31D959A2B03BDB25AB897AAE6A051FBC3* __this, String_t* ___0_language, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_language;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0__ctor_m3DE7DD683E725F75C2FD641DBB3CF10F36B9ADF1 (U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass32_0_U3CGetVoiceForLanguageU3Eb__0_m44ACA32FD4369A08140FDEA3E66FB1C56999BC87 (U3CU3Ec__DisplayClass32_0_t299EE9F672857CC220D9AF442F2089D311160C1F* __this, RuntimeObject* ___0_voice, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = ___0_voice;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0, ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var, L_0);
+		String_t* L_2 = __this->___voiceId;
+		bool L_3;
+		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_2, NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0__ctor_mBD3E9ECD6B010BDFD2389CDC2BBFD43480F3254E (U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass33_0_U3CGetAllVoicesForLanguageU3Eb__0_m4E9094633677CCD05C78D9B02C285A62F01AA065 (U3CU3Ec__DisplayClass33_0_tF906F00E6476B10CA98D3FF1BFCDD04BF70DD21E* __this, RuntimeObject* ___0_voice, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = ___0_voice;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(2, ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var, L_0);
+		String_t* L_2 = __this->___language;
+		bool L_3;
+		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_2, NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_iOS__SetupCallbacks_m42D2C284FF965C7EB7891EA93D9FAB15D2A62B5D (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___0_speechUtteranceCancelled, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___1_speechUtteranceContinued, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___2_speechUtteranceFinished, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___3_speechUtterancePaused, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___4_speechUtteranceStarted, StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* ___5_willSpeakPartOfString, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
+
+	Il2CppMethodPointer ____0_speechUtteranceCancelled_marshaled = NULL;
+	____0_speechUtteranceCancelled_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___0_speechUtteranceCancelled));
+
+	Il2CppMethodPointer ____1_speechUtteranceContinued_marshaled = NULL;
+	____1_speechUtteranceContinued_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_speechUtteranceContinued));
+
+	Il2CppMethodPointer ____2_speechUtteranceFinished_marshaled = NULL;
+	____2_speechUtteranceFinished_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___2_speechUtteranceFinished));
+
+	Il2CppMethodPointer ____3_speechUtterancePaused_marshaled = NULL;
+	____3_speechUtterancePaused_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___3_speechUtterancePaused));
+
+	Il2CppMethodPointer ____4_speechUtteranceStarted_marshaled = NULL;
+	____4_speechUtteranceStarted_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___4_speechUtteranceStarted));
+
+	Il2CppMethodPointer ____5_willSpeakPartOfString_marshaled = NULL;
+	____5_willSpeakPartOfString_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___5_willSpeakPartOfString));
+
+	reinterpret_cast<PInvokeFunc>(_SetupCallbacks)(____0_speechUtteranceCancelled_marshaled, ____1_speechUtteranceContinued_marshaled, ____2_speechUtteranceFinished_marshaled, ____3_speechUtterancePaused_marshaled, ____4_speechUtteranceStarted_marshaled, ____5_willSpeakPartOfString_marshaled);
+
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_iOS__Speak_m3908585E5077A9D533AFC486BC071BE9EECE1795 (String_t* ___0_textToSpeak, float ___1_pitch, double ___2_preUtteranceDelay, double ___3_postUtteranceDelay, float ___4_speechRate, String_t* ___5_voiceIdentifier, float ___6_volume, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, float, double, double, float, char*, float);
+
+	char* ____0_textToSpeak_marshaled = NULL;
+	____0_textToSpeak_marshaled = il2cpp_codegen_marshal_string(___0_textToSpeak);
+
+	char* ____5_voiceIdentifier_marshaled = NULL;
+	____5_voiceIdentifier_marshaled = il2cpp_codegen_marshal_string(___5_voiceIdentifier);
+
+	reinterpret_cast<PInvokeFunc>(_Speak)(____0_textToSpeak_marshaled, ___1_pitch, ___2_preUtteranceDelay, ___3_postUtteranceDelay, ___4_speechRate, ____5_voiceIdentifier_marshaled, ___6_volume);
+
+	il2cpp_codegen_marshal_free(____0_textToSpeak_marshaled);
+	____0_textToSpeak_marshaled = NULL;
+
+	il2cpp_codegen_marshal_free(____5_voiceIdentifier_marshaled);
+	____5_voiceIdentifier_marshaled = NULL;
+
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS__PauseSpeakingEndOfWord_mD992E79499C7E2110C8F22BAA5A54A606B6FA09C (const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(_PauseSpeakingEndOfWord)();
+
+	return static_cast<bool>(returnValue);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS__PauseSpeakingImmediate_m511F9D013FD72440CDA43B00B39CB321EDDDAC36 (const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(_PauseSpeakingImmediate)();
+
+	return static_cast<bool>(returnValue);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS__ContinueSpeaking_mC96F76527A94E2EB112B868AF8415852664188C5 (const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(_ContinueSpeaking)();
+
+	return static_cast<bool>(returnValue);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS__StopSpeakingEndOfWord_mD8A9698A41D50120D0394553F7BF3F81B41EA12F (const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(_StopSpeakingEndOfWord)();
+
+	return static_cast<bool>(returnValue);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS__StopSpeakingImmediate_m3DF286EAD106932446455A3CC5BF27A7C9973673 (const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(_StopSpeakingImmediate)();
+
+	return static_cast<bool>(returnValue);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS__isPaused_mF3F228C17B38A9351FD814A503E12F769701CE25 (const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(_isPaused)();
+
+	return static_cast<bool>(returnValue);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS__isSpeaking_mCF587BF6FBAC0B64D78344E926C88C8AD53CADB2 (const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(_isSpeaking)();
+
+	return static_cast<bool>(returnValue);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_iOS__UtteranceMinimumSpeechRate_m865E76FAFB8F6D937BEC01B694FD1934BF89D7D6 (const RuntimeMethod* method) 
+{
+	typedef float (DEFAULT_CALL *PInvokeFunc) ();
+
+	float returnValue = reinterpret_cast<PInvokeFunc>(_UtteranceMinimumSpeechRate)();
+
+	return returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_iOS__UtteranceMaximumSpeechRate_m51CEFB508EECF43B932D2EBC9E0772B5E59DD336 (const RuntimeMethod* method) 
+{
+	typedef float (DEFAULT_CALL *PInvokeFunc) ();
+
+	float returnValue = reinterpret_cast<PInvokeFunc>(_UtteranceMaximumSpeechRate)();
+
+	return returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_iOS__UtteranceDefaultSpeechRate_mFCB1508C64982B6F4792B076E78CFFEEEE3E19DA (const RuntimeMethod* method) 
+{
+	typedef float (DEFAULT_CALL *PInvokeFunc) ();
+
+	float returnValue = reinterpret_cast<PInvokeFunc>(_UtteranceDefaultSpeechRate)();
+
+	return returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTS_iOS__GetNumberOfAvailableVoices_mA9E6FAE34AB3C8CE1C332561C75E710CF418F80A (const RuntimeMethod* method) 
+{
+	typedef int64_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	int64_t returnValue = reinterpret_cast<PInvokeFunc>(_GetNumberOfAvailableVoices)();
+
+	return returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS__GetVoiceIdentifier_m8D23DF0591D70D71F5C081440C213F2C49057B63 (int32_t ___0_index, const RuntimeMethod* method) 
+{
+	typedef char* (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	char* returnValue = reinterpret_cast<PInvokeFunc>(_GetVoiceIdentifier)(___0_index);
+
+	String_t* _returnValue_unmarshaled = NULL;
+	_returnValue_unmarshaled = il2cpp_codegen_marshal_string_result(returnValue);
+
+	il2cpp_codegen_marshal_free(returnValue);
+	returnValue = NULL;
+
+	return _returnValue_unmarshaled;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS__GetVoiceIdentifierFromLanguageCode_m87C4F85A12D949B158417F3718A57347A249E625 (String_t* ___0_languageCode, const RuntimeMethod* method) 
+{
+	typedef char* (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	char* ____0_languageCode_marshaled = NULL;
+	____0_languageCode_marshaled = il2cpp_codegen_marshal_string(___0_languageCode);
+
+	char* returnValue = reinterpret_cast<PInvokeFunc>(_GetVoiceIdentifierFromLanguageCode)(____0_languageCode_marshaled);
+
+	String_t* _returnValue_unmarshaled = NULL;
+	_returnValue_unmarshaled = il2cpp_codegen_marshal_string_result(returnValue);
+
+	il2cpp_codegen_marshal_free(returnValue);
+	returnValue = NULL;
+
+	il2cpp_codegen_marshal_free(____0_languageCode_marshaled);
+	____0_languageCode_marshaled = NULL;
+
+	return _returnValue_unmarshaled;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS__GetVoiceName_mA66ABF0C62C871B68F242F9AE28E901E7EBD0515 (int32_t ___0_index, const RuntimeMethod* method) 
+{
+	typedef char* (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	char* returnValue = reinterpret_cast<PInvokeFunc>(_GetVoiceName)(___0_index);
+
+	String_t* _returnValue_unmarshaled = NULL;
+	_returnValue_unmarshaled = il2cpp_codegen_marshal_string_result(returnValue);
+
+	il2cpp_codegen_marshal_free(returnValue);
+	returnValue = NULL;
+
+	return _returnValue_unmarshaled;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS__GetVoiceLanguage_m56E2633F6196B1BA8B66940E2AD1AA441289D6A1 (int32_t ___0_index, const RuntimeMethod* method) 
+{
+	typedef char* (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	char* returnValue = reinterpret_cast<PInvokeFunc>(_GetVoiceLanguage)(___0_index);
+
+	String_t* _returnValue_unmarshaled = NULL;
+	_returnValue_unmarshaled = il2cpp_codegen_marshal_string_result(returnValue);
+
+	il2cpp_codegen_marshal_free(returnValue);
+	returnValue = NULL;
+
+	return _returnValue_unmarshaled;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TTS_iOS__GetVoiceQuality_mA17546A9C01BE1964E89708A425BC33CA1316CDB (int32_t ___0_index, const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(_GetVoiceQuality)(___0_index);
+
+	return returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS__CurrentLanguageCode_mD19C7FE5923F99D73914A80BE90797947FB431C0 (const RuntimeMethod* method) 
+{
+	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
+
+	char* returnValue = reinterpret_cast<PInvokeFunc>(_CurrentLanguageCode)();
+
+	String_t* _returnValue_unmarshaled = NULL;
+	_returnValue_unmarshaled = il2cpp_codegen_marshal_string_result(returnValue);
+
+	il2cpp_codegen_marshal_free(returnValue);
+	returnValue = NULL;
+
+	return _returnValue_unmarshaled;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_iOS_SetupCallbacks_m3B2F161C21871945A140F503A47A6186AC5E62F4 (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___0_speechUtteranceCancelled, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___1_speechUtteranceContinued, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___2_speechUtteranceFinished, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___3_speechUtterancePaused, SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* ___4_speechUtteranceStarted, StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* ___5_willSpeakPartOfString, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0_U3CSetupCallbacksU3Eb__0_m7070CA870EE8C63992BC23EA39F9258F5EE1926A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA8E41F0AC6DAFFCDAE435C3E37EAB78BDC34D567);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* V_0 = NULL;
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
+	{
+		U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* L_0 = (U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass19_0__ctor_m74580B90DC135E0DCC28F917B5844D8EB45F83AB(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* L_1 = V_0;
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_2 = ___0_speechUtteranceCancelled;
+		NullCheck(L_1);
+		L_1->___speechUtteranceCancelled = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___speechUtteranceCancelled), (void*)L_2);
+		U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* L_3 = V_0;
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_4 = ___1_speechUtteranceContinued;
+		NullCheck(L_3);
+		L_3->___speechUtteranceContinued = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___speechUtteranceContinued), (void*)L_4);
+		U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* L_5 = V_0;
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_6 = ___2_speechUtteranceFinished;
+		NullCheck(L_5);
+		L_5->___speechUtteranceFinished = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&L_5->___speechUtteranceFinished), (void*)L_6);
+		U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* L_7 = V_0;
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_8 = ___3_speechUtterancePaused;
+		NullCheck(L_7);
+		L_7->___speechUtterancePaused = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&L_7->___speechUtterancePaused), (void*)L_8);
+		U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* L_9 = V_0;
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_10 = ___4_speechUtteranceStarted;
+		NullCheck(L_9);
+		L_9->___speechUtteranceStarted = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&L_9->___speechUtteranceStarted), (void*)L_10);
+		U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* L_11 = V_0;
+		StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* L_12 = ___5_willSpeakPartOfString;
+		NullCheck(L_11);
+		L_11->___willSpeakPartOfString = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&L_11->___willSpeakPartOfString), (void*)L_12);
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_13;
+		L_13 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_13) == ((int32_t)8)))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_14;
+		L_14 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_14) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0047;
+	}
+
+IL_0046:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0047:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_15 = V_1;
+		if (!L_15)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* L_16 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_17 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_17, L_16, (intptr_t)((void*)U3CU3Ec__DisplayClass19_0_U3CSetupCallbacksU3Eb__0_m7070CA870EE8C63992BC23EA39F9258F5EE1926A_RuntimeMethod_var), NULL);
+		TTS_iOS_Try_m22C200877DF6A42845AB0DF5BD5EB48E2DE4DA83(L_17, _stringLiteralA8E41F0AC6DAFFCDAE435C3E37EAB78BDC34D567, NULL);
+	}
+
+IL_0062:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_iOS_Speak_m2702B10272D6C8407589B2946D342A78C7D52441 (String_t* ___0_textToSpeak, float ___1_pitchMultiplier, double ___2_preUtteranceDelay, double ___3_postUtteranceDelay, float ___4_speechRate, String_t* ___5_voiceIdentifier, float ___6_volume, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass20_1_U3CSpeakU3Eb__0_m379640C8E0A463199D9621B26A5DA02B79C2FB03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral629E750A5A0A7774D57345246544DC00FD078A49);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* V_0 = NULL;
+	bool V_1 = false;
+	U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C* V_2 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* L_0 = (U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass20_0__ctor_m8037EC648DAB16CBAE0B981C48E6A4FB83815528(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* L_1 = V_0;
+		String_t* L_2 = ___0_textToSpeak;
+		NullCheck(L_1);
+		L_1->___textToSpeak = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___textToSpeak), (void*)L_2);
+		U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* L_3 = V_0;
+		double L_4 = ___2_preUtteranceDelay;
+		NullCheck(L_3);
+		L_3->___preUtteranceDelay = L_4;
+		U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* L_5 = V_0;
+		double L_6 = ___3_postUtteranceDelay;
+		NullCheck(L_5);
+		L_5->___postUtteranceDelay = L_6;
+		U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* L_7 = V_0;
+		String_t* L_8 = ___5_voiceIdentifier;
+		NullCheck(L_7);
+		L_7->___voiceIdentifier = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&L_7->___voiceIdentifier), (void*)L_8);
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_9;
+		L_9 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_9) == ((int32_t)8)))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_10;
+		L_10 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_10) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0038;
+	}
+
+IL_0037:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0038:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_11 = V_1;
+		if (!L_11)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C* L_12 = (U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass20_1__ctor_m1ACD5DDE21D0D8CBD875CE811F2463FD5E626CA9(L_12, NULL);
+		V_2 = L_12;
+		U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C* L_13 = V_2;
+		U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* L_14 = V_0;
+		NullCheck(L_13);
+		L_13->___CSU24U3CU3E8__locals1 = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&L_13->___CSU24U3CU3E8__locals1), (void*)L_14);
+		U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C* L_15 = V_2;
+		float L_16 = ___4_speechRate;
+		float L_17;
+		L_17 = TTS_iOS_get_UtteranceMinimumSpeechRate_m3EF9E7B9705CF9FF5EB70D17C6EEF5A3D9CA1A5D(NULL);
+		float L_18;
+		L_18 = TTS_iOS_get_UtteranceMaximumSpeechRate_m5209C71AA208B2FEE4B61B61C30DC9253CB09689(NULL);
+		float L_19;
+		L_19 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_16, L_17, L_18, NULL);
+		NullCheck(L_15);
+		L_15->___rate = L_19;
+		U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C* L_20 = V_2;
+		float L_21 = ___1_pitchMultiplier;
+		float L_22;
+		L_22 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_21, (0.5f), (2.0f), NULL);
+		NullCheck(L_20);
+		L_20->___pitch = L_22;
+		U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C* L_23 = V_2;
+		float L_24 = ___6_volume;
+		float L_25;
+		L_25 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_24, (0.0f), (1.0f), NULL);
+		NullCheck(L_23);
+		L_23->___clampedVolume = L_25;
+		U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C* L_26 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_27 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_27, L_26, (intptr_t)((void*)U3CU3Ec__DisplayClass20_1_U3CSpeakU3Eb__0_m379640C8E0A463199D9621B26A5DA02B79C2FB03_RuntimeMethod_var), NULL);
+		TTS_iOS_Try_m22C200877DF6A42845AB0DF5BD5EB48E2DE4DA83(L_27, _stringLiteral629E750A5A0A7774D57345246544DC00FD078A49, NULL);
+	}
+
+IL_00a6:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS_PauseSpeaking_m8977BE0E87FC44975FECEA3C11621CBD50C4396D (int32_t ___0_speechBoundary, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__PauseSpeakingEndOfWord_mD992E79499C7E2110C8F22BAA5A54A606B6FA09C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__PauseSpeakingImmediate_m511F9D013FD72440CDA43B00B39CB321EDDDAC36_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3C4534B4D2648C36A5B8BBF0F019FC9D1D6EB0F7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD4107C96B71DE27D18F8776C6693EE85F306B147);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	int32_t G_B3_0 = 0;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_0) == ((int32_t)8)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		int32_t L_3 = ___0_speechBoundary;
+		V_2 = L_3;
+		int32_t L_4 = V_2;
+		V_1 = L_4;
+		int32_t L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		goto IL_0022;
+	}
+
+IL_0022:
+	{
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) == ((int32_t)1)))
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		goto IL_005c;
+	}
+
+IL_0028:
+	{
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_7 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_7, NULL, (intptr_t)((void*)TTS_iOS__PauseSpeakingImmediate_m511F9D013FD72440CDA43B00B39CB321EDDDAC36_RuntimeMethod_var), NULL);
+		bool L_8;
+		L_8 = TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF(L_7, (bool)0, _stringLiteralD4107C96B71DE27D18F8776C6693EE85F306B147, TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		V_3 = L_8;
+		goto IL_0076;
+	}
+
+IL_0042:
+	{
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_9 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_9, NULL, (intptr_t)((void*)TTS_iOS__PauseSpeakingEndOfWord_mD992E79499C7E2110C8F22BAA5A54A606B6FA09C_RuntimeMethod_var), NULL);
+		bool L_10;
+		L_10 = TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF(L_9, (bool)0, _stringLiteral3C4534B4D2648C36A5B8BBF0F019FC9D1D6EB0F7, TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		V_3 = L_10;
+		goto IL_0076;
+	}
+
+IL_005c:
+	{
+		int32_t L_11 = ___0_speechBoundary;
+		int32_t L_12 = L_11;
+		RuntimeObject* L_13 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SpeechBoundary_t64260DBD3A5863D40EFEAB8BE225A890A80D5CE8_il2cpp_TypeInfo_var)), &L_12);
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_14 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85(L_14, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFC7C0F07B528CF7B5075BE3F47C747D0F5182858)), L_13, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral69AE3A404AEA7C840D2FF52C5EF738C4E0A98E33)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_14, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TTS_iOS_PauseSpeaking_m8977BE0E87FC44975FECEA3C11621CBD50C4396D_RuntimeMethod_var)));
+	}
+
+IL_0072:
+	{
+		V_3 = (bool)0;
+		goto IL_0076;
+	}
+
+IL_0076:
+	{
+		bool L_15 = V_3;
+		return L_15;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS_StopSpeaking_m26A4D4E0EE35A2C3E03F63712593ED6D71219283 (int32_t ___0_speechBoundary, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__StopSpeakingEndOfWord_mD8A9698A41D50120D0394553F7BF3F81B41EA12F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__StopSpeakingImmediate_m3DF286EAD106932446455A3CC5BF27A7C9973673_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral76A1A7A4DDE052A72907CF05916F053EA254D60D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA73BD6C9F73549FF7801E44A26EBC86B3FFEAA38);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	int32_t G_B3_0 = 0;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_0) == ((int32_t)8)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		int32_t L_3 = ___0_speechBoundary;
+		V_2 = L_3;
+		int32_t L_4 = V_2;
+		V_1 = L_4;
+		int32_t L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		goto IL_0022;
+	}
+
+IL_0022:
+	{
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) == ((int32_t)1)))
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		goto IL_005c;
+	}
+
+IL_0028:
+	{
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_7 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_7, NULL, (intptr_t)((void*)TTS_iOS__StopSpeakingImmediate_m3DF286EAD106932446455A3CC5BF27A7C9973673_RuntimeMethod_var), NULL);
+		bool L_8;
+		L_8 = TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF(L_7, (bool)0, _stringLiteralA73BD6C9F73549FF7801E44A26EBC86B3FFEAA38, TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		goto IL_0072;
+	}
+
+IL_0042:
+	{
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_9 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_9, NULL, (intptr_t)((void*)TTS_iOS__StopSpeakingEndOfWord_mD8A9698A41D50120D0394553F7BF3F81B41EA12F_RuntimeMethod_var), NULL);
+		bool L_10;
+		L_10 = TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF(L_9, (bool)0, _stringLiteral76A1A7A4DDE052A72907CF05916F053EA254D60D, TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		goto IL_0072;
+	}
+
+IL_005c:
+	{
+		int32_t L_11 = ___0_speechBoundary;
+		int32_t L_12 = L_11;
+		RuntimeObject* L_13 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SpeechBoundary_t64260DBD3A5863D40EFEAB8BE225A890A80D5CE8_il2cpp_TypeInfo_var)), &L_12);
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_14 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85(L_14, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFC7C0F07B528CF7B5075BE3F47C747D0F5182858)), L_13, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral69AE3A404AEA7C840D2FF52C5EF738C4E0A98E33)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_14, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&TTS_iOS_StopSpeaking_m26A4D4E0EE35A2C3E03F63712593ED6D71219283_RuntimeMethod_var)));
+	}
+
+IL_0072:
+	{
+		V_3 = (bool)0;
+		goto IL_0076;
+	}
+
+IL_0076:
+	{
+		bool L_15 = V_3;
+		return L_15;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS_ContinueSpeaking_mB717EDBD0BF73BABA3AF45B7B2DD3B81A9207A0B (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__ContinueSpeaking_mC96F76527A94E2EB112B868AF8415852664188C5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral04D22093041D7DB9BC168737FA44C82B125FE3D5);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_0) == ((int32_t)8)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_3 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_3, NULL, (intptr_t)((void*)TTS_iOS__ContinueSpeaking_mC96F76527A94E2EB112B868AF8415852664188C5_RuntimeMethod_var), NULL);
+		bool L_4;
+		L_4 = TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF(L_3, (bool)0, _stringLiteral04D22093041D7DB9BC168737FA44C82B125FE3D5, TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_0037;
+	}
+
+IL_0033:
+	{
+		V_1 = (bool)0;
+		goto IL_0037;
+	}
+
+IL_0037:
+	{
+		bool L_5 = V_1;
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS_get_IsPaused_mFB3FB3645753017612CB4BFEA881603498538BB8 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__isPaused_mF3F228C17B38A9351FD814A503E12F769701CE25_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral845B29B67D6424259AB80692712AC24CCF5BADF3);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_0) == ((int32_t)8)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_3 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_3, NULL, (intptr_t)((void*)TTS_iOS__isPaused_mF3F228C17B38A9351FD814A503E12F769701CE25_RuntimeMethod_var), NULL);
+		bool L_4;
+		L_4 = TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF(L_3, (bool)0, _stringLiteral845B29B67D6424259AB80692712AC24CCF5BADF3, TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_0037;
+	}
+
+IL_0033:
+	{
+		V_1 = (bool)0;
+		goto IL_0037;
+	}
+
+IL_0037:
+	{
+		bool L_5 = V_1;
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTS_iOS_get_IsSpeaking_mC5F5F95DC9619E8C2085B2185438A8B3B11EC403 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__isSpeaking_mCF587BF6FBAC0B64D78344E926C88C8AD53CADB2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3071F6E7D4934C369A5C8DA722E23C86E7A4BC0C);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_0) == ((int32_t)8)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_3 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_3, NULL, (intptr_t)((void*)TTS_iOS__isSpeaking_mCF587BF6FBAC0B64D78344E926C88C8AD53CADB2_RuntimeMethod_var), NULL);
+		bool L_4;
+		L_4 = TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF(L_3, (bool)0, _stringLiteral3071F6E7D4934C369A5C8DA722E23C86E7A4BC0C, TTS_iOS_Try_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m118021FED427156481EC0DB78BE516C53FDBE2FF_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_0037;
+	}
+
+IL_0033:
+	{
+		V_1 = (bool)0;
+		goto IL_0037;
+	}
+
+IL_0037:
+	{
+		bool L_5 = V_1;
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_iOS_get_UtteranceMinimumSpeechRate_m3EF9E7B9705CF9FF5EB70D17C6EEF5A3D9CA1A5D (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__UtteranceMinimumSpeechRate_m865E76FAFB8F6D937BEC01B694FD1934BF89D7D6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7E678338D894AC210E1B4F81BE22A25E6B18DD1A);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	int32_t G_B3_0 = 0;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_0) == ((int32_t)8)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_3 = (Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7*)il2cpp_codegen_object_new(Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7_il2cpp_TypeInfo_var);
+		Func_1__ctor_m94E0C712F86101E026834DA318C3FFF46DE49C71(L_3, NULL, (intptr_t)((void*)TTS_iOS__UtteranceMinimumSpeechRate_m865E76FAFB8F6D937BEC01B694FD1934BF89D7D6_RuntimeMethod_var), NULL);
+		float L_4;
+		L_4 = TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846(L_3, (0.0f), _stringLiteral7E678338D894AC210E1B4F81BE22A25E6B18DD1A, TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_003f;
+	}
+
+IL_0037:
+	{
+		V_1 = (0.0f);
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_iOS_get_UtteranceMaximumSpeechRate_m5209C71AA208B2FEE4B61B61C30DC9253CB09689 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__UtteranceMaximumSpeechRate_m51CEFB508EECF43B932D2EBC9E0772B5E59DD336_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B59607D7E294C9759940B92435C360BAFC13984);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	int32_t G_B3_0 = 0;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_0) == ((int32_t)8)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_3 = (Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7*)il2cpp_codegen_object_new(Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7_il2cpp_TypeInfo_var);
+		Func_1__ctor_m94E0C712F86101E026834DA318C3FFF46DE49C71(L_3, NULL, (intptr_t)((void*)TTS_iOS__UtteranceMaximumSpeechRate_m51CEFB508EECF43B932D2EBC9E0772B5E59DD336_RuntimeMethod_var), NULL);
+		float L_4;
+		L_4 = TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846(L_3, (0.0f), _stringLiteral9B59607D7E294C9759940B92435C360BAFC13984, TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_003f;
+	}
+
+IL_0037:
+	{
+		V_1 = (0.0f);
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TTS_iOS_get_UtteranceDefaultSpeechRate_m244EDE7F737E008CBD164B4E1B61DE770F2EEF78 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__UtteranceDefaultSpeechRate_mFCB1508C64982B6F4792B076E78CFFEEEE3E19DA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFC7C6B367B676AC6A80CD6E71291632888A36117);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	int32_t G_B3_0 = 0;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_0) == ((int32_t)8)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_3 = (Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7*)il2cpp_codegen_object_new(Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7_il2cpp_TypeInfo_var);
+		Func_1__ctor_m94E0C712F86101E026834DA318C3FFF46DE49C71(L_3, NULL, (intptr_t)((void*)TTS_iOS__UtteranceDefaultSpeechRate_mFCB1508C64982B6F4792B076E78CFFEEEE3E19DA_RuntimeMethod_var), NULL);
+		float L_4;
+		L_4 = TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846(L_3, (0.0f), _stringLiteralFC7C6B367B676AC6A80CD6E71291632888A36117, TTS_iOS_Try_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA2045FAE8FB9DBB2D6C062632F2A781A10C98846_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_003f;
+	}
+
+IL_0037:
+	{
+		V_1 = (0.0f);
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTS_iOS_GetNumberOfAvailableVoices_mFE3B222F971D8BF25D1616FB6F396000846D2FDC (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m58A5CA1CEC9F527CE0190E85742E3C7BECE0CFBB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__GetNumberOfAvailableVoices_mA9E6FAE34AB3C8CE1C332561C75E710CF418F80A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5EB3E0056939FDD86E679106AA694FB264A62147);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int64_t V_1 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_0) == ((int32_t)8)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D* L_3 = (Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D*)il2cpp_codegen_object_new(Func_1_t84FF2BA023F4FF598B3D124B60BB85D6F904FE1D_il2cpp_TypeInfo_var);
+		Func_1__ctor_m8E73BFE6AD5362513E1302835EF279650B70333F(L_3, NULL, (intptr_t)((void*)TTS_iOS__GetNumberOfAvailableVoices_mA9E6FAE34AB3C8CE1C332561C75E710CF418F80A_RuntimeMethod_var), NULL);
+		int64_t L_4;
+		L_4 = TTS_iOS_Try_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m58A5CA1CEC9F527CE0190E85742E3C7BECE0CFBB(L_3, ((int64_t)0), _stringLiteral5EB3E0056939FDD86E679106AA694FB264A62147, TTS_iOS_Try_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m58A5CA1CEC9F527CE0190E85742E3C7BECE0CFBB_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_003a;
+	}
+
+IL_0035:
+	{
+		V_1 = ((int64_t)0);
+		goto IL_003a;
+	}
+
+IL_003a:
+	{
+		int64_t L_5 = V_1;
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS_GetVoiceIdentifier_m662184DED8D6D161A809389F22715DCD5F74E44D (int32_t ___0_index, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass35_0_U3CGetVoiceIdentifierU3Eb__0_m95A0A638D71B09B9B4B0A731AB1CFEE790654C35_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral590EAF9284E3110BC122791A1DF3C10F9CC96C4B);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49* V_0 = NULL;
+	bool V_1 = false;
+	String_t* V_2 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49* L_0 = (U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass35_0__ctor_m6A62CA4F8B8F45E4B332D36B45DD49EA03A1AA14(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49* L_1 = V_0;
+		int32_t L_2 = ___0_index;
+		NullCheck(L_1);
+		L_1->___index = L_2;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_3;
+		L_3 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_3) == ((int32_t)8)))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_4;
+		L_4 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_4) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0022;
+	}
+
+IL_0021:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0022:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49* L_6 = V_0;
+		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_7 = (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C*)il2cpp_codegen_object_new(Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		Func_1__ctor_m27A68E928C1D9158EAAD261086B9BC424339327B(L_7, L_6, (intptr_t)((void*)U3CU3Ec__DisplayClass35_0_U3CGetVoiceIdentifierU3Eb__0_m95A0A638D71B09B9B4B0A731AB1CFEE790654C35_RuntimeMethod_var), NULL);
+		String_t* L_8 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49* L_9 = V_0;
+		NullCheck(L_9);
+		int32_t* L_10 = (int32_t*)(&L_9->___index);
+		String_t* L_11;
+		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_10, NULL);
+		String_t* L_12;
+		L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral590EAF9284E3110BC122791A1DF3C10F9CC96C4B, L_11, NULL);
+		String_t* L_13;
+		L_13 = TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92(L_7, L_8, L_12, TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92_RuntimeMethod_var);
+		V_2 = L_13;
+		goto IL_005c;
+	}
+
+IL_0054:
+	{
+		String_t* L_14 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		V_2 = L_14;
+		goto IL_005c;
+	}
+
+IL_005c:
+	{
+		String_t* L_15 = V_2;
+		return L_15;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS_GetVoiceName_m4CBCB068AE657C02CAF6E07E5967D21ECCEFFA6E (int32_t ___0_index, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass36_0_U3CGetVoiceNameU3Eb__0_mA28FCE93618BF1F20381C2E1F33A1361146B3B05_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCBFBBDAAE91CF15545A1660A6AFC8BB28EFDD6E2);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3* V_0 = NULL;
+	bool V_1 = false;
+	String_t* V_2 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3* L_0 = (U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass36_0__ctor_mCEE32C187254A754F9D39EFDDA98AD1CCE838B37(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3* L_1 = V_0;
+		int32_t L_2 = ___0_index;
+		NullCheck(L_1);
+		L_1->___index = L_2;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_3;
+		L_3 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_3) == ((int32_t)8)))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_4;
+		L_4 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_4) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0022;
+	}
+
+IL_0021:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0022:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3* L_6 = V_0;
+		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_7 = (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C*)il2cpp_codegen_object_new(Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		Func_1__ctor_m27A68E928C1D9158EAAD261086B9BC424339327B(L_7, L_6, (intptr_t)((void*)U3CU3Ec__DisplayClass36_0_U3CGetVoiceNameU3Eb__0_mA28FCE93618BF1F20381C2E1F33A1361146B3B05_RuntimeMethod_var), NULL);
+		String_t* L_8 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3* L_9 = V_0;
+		NullCheck(L_9);
+		int32_t* L_10 = (int32_t*)(&L_9->___index);
+		String_t* L_11;
+		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_10, NULL);
+		String_t* L_12;
+		L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralCBFBBDAAE91CF15545A1660A6AFC8BB28EFDD6E2, L_11, NULL);
+		String_t* L_13;
+		L_13 = TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92(L_7, L_8, L_12, TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92_RuntimeMethod_var);
+		V_2 = L_13;
+		goto IL_005c;
+	}
+
+IL_0054:
+	{
+		String_t* L_14 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		V_2 = L_14;
+		goto IL_005c;
+	}
+
+IL_005c:
+	{
+		String_t* L_15 = V_2;
+		return L_15;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS_GetVoiceLanguage_mE79761F941EAE41C182EE41F9ADB26AAE64C85B8 (int32_t ___0_index, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass37_0_U3CGetVoiceLanguageU3Eb__0_m63C0D08EA38D017E25DDC93FB82DEFB08314591B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC27C971CF1FF3C7709A0BFCCDA5AE1BC11003B9B);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45* V_0 = NULL;
+	bool V_1 = false;
+	String_t* V_2 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45* L_0 = (U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass37_0__ctor_mEC95A5F352C4D93416AC2B42C3B6F196F3609E36(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45* L_1 = V_0;
+		int32_t L_2 = ___0_index;
+		NullCheck(L_1);
+		L_1->___index = L_2;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_3;
+		L_3 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_3) == ((int32_t)8)))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_4;
+		L_4 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_4) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0022;
+	}
+
+IL_0021:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0022:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45* L_6 = V_0;
+		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_7 = (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C*)il2cpp_codegen_object_new(Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		Func_1__ctor_m27A68E928C1D9158EAAD261086B9BC424339327B(L_7, L_6, (intptr_t)((void*)U3CU3Ec__DisplayClass37_0_U3CGetVoiceLanguageU3Eb__0_m63C0D08EA38D017E25DDC93FB82DEFB08314591B_RuntimeMethod_var), NULL);
+		String_t* L_8 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45* L_9 = V_0;
+		NullCheck(L_9);
+		int32_t* L_10 = (int32_t*)(&L_9->___index);
+		String_t* L_11;
+		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_10, NULL);
+		String_t* L_12;
+		L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralC27C971CF1FF3C7709A0BFCCDA5AE1BC11003B9B, L_11, NULL);
+		String_t* L_13;
+		L_13 = TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92(L_7, L_8, L_12, TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92_RuntimeMethod_var);
+		V_2 = L_13;
+		goto IL_005c;
+	}
+
+IL_0054:
+	{
+		String_t* L_14 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		V_2 = L_14;
+		goto IL_005c;
+	}
+
+IL_005c:
+	{
+		String_t* L_15 = V_2;
+		return L_15;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TTS_iOS_GetVoiceQuality_m57A54212214CEE6AD6A4C163ABC74A70523602B6 (int32_t ___0_index, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mBFC3CC301EBD0EAC00730721CF966D7FCA07FE4E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass38_0_U3CGetVoiceQualityU3Eb__0_mB9BB439EA782926797622BFB26888A32BF6A4FD6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral38369CC1139BC6715854E10AA05FA445DF3538A6);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060* V_0 = NULL;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060* L_0 = (U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass38_0__ctor_m7C66A6C0833DE278BFC98D966DDF1149DDF8B94C(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060* L_1 = V_0;
+		int32_t L_2 = ___0_index;
+		NullCheck(L_1);
+		L_1->___index = L_2;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_3;
+		L_3 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_3) == ((int32_t)8)))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_4;
+		L_4 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_4) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0022;
+	}
+
+IL_0021:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0022:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060* L_6 = V_0;
+		Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD* L_7 = (Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD*)il2cpp_codegen_object_new(Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD_il2cpp_TypeInfo_var);
+		Func_1__ctor_m475512287B9508E6D4721B3022635FED517234D1(L_7, L_6, (intptr_t)((void*)U3CU3Ec__DisplayClass38_0_U3CGetVoiceQualityU3Eb__0_mB9BB439EA782926797622BFB26888A32BF6A4FD6_RuntimeMethod_var), NULL);
+		U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060* L_8 = V_0;
+		NullCheck(L_8);
+		int32_t* L_9 = (int32_t*)(&L_8->___index);
+		String_t* L_10;
+		L_10 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_9, NULL);
+		String_t* L_11;
+		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral38369CC1139BC6715854E10AA05FA445DF3538A6, L_10, NULL);
+		int32_t L_12;
+		L_12 = TTS_iOS_Try_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mBFC3CC301EBD0EAC00730721CF966D7FCA07FE4E(L_7, 0, L_11, TTS_iOS_Try_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mBFC3CC301EBD0EAC00730721CF966D7FCA07FE4E_RuntimeMethod_var);
+		V_2 = L_12;
+		goto IL_0054;
+	}
+
+IL_0050:
+	{
+		V_2 = 0;
+		goto IL_0054;
+	}
+
+IL_0054:
+	{
+		int32_t L_13 = V_2;
+		return L_13;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS_GetVoiceIdentifierFromLanguageCode_m83824B3AFBC533DAD6F8326DF59E01DD1644A03E (String_t* ___0_languageCode, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass39_0_U3CGetVoiceIdentifierFromLanguageCodeU3Eb__0_m2BD6B2EB71EAD07AFE19479ACF4E6AC261AA0BB9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAC9C1FF5CED0B9F748FF1EEAA64A86FA85378C8B);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4* V_0 = NULL;
+	bool V_1 = false;
+	String_t* V_2 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4* L_0 = (U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass39_0__ctor_m169F3C44EF28B6838B1E17F84A2BADAC92C9D0C1(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4* L_1 = V_0;
+		String_t* L_2 = ___0_languageCode;
+		NullCheck(L_1);
+		L_1->___languageCode = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___languageCode), (void*)L_2);
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_3;
+		L_3 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_3) == ((int32_t)8)))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_4;
+		L_4 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_4) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0022;
+	}
+
+IL_0021:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0022:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4* L_6 = V_0;
+		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_7 = (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C*)il2cpp_codegen_object_new(Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		Func_1__ctor_m27A68E928C1D9158EAAD261086B9BC424339327B(L_7, L_6, (intptr_t)((void*)U3CU3Ec__DisplayClass39_0_U3CGetVoiceIdentifierFromLanguageCodeU3Eb__0_m2BD6B2EB71EAD07AFE19479ACF4E6AC261AA0BB9_RuntimeMethod_var), NULL);
+		String_t* L_8 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4* L_9 = V_0;
+		NullCheck(L_9);
+		String_t* L_10 = L_9->___languageCode;
+		String_t* L_11;
+		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralAC9C1FF5CED0B9F748FF1EEAA64A86FA85378C8B, L_10, NULL);
+		String_t* L_12;
+		L_12 = TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92(L_7, L_8, L_11, TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92_RuntimeMethod_var);
+		V_2 = L_12;
+		goto IL_0057;
+	}
+
+IL_004f:
+	{
+		String_t* L_13 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		V_2 = L_13;
+		goto IL_0057;
+	}
+
+IL_0057:
+	{
+		String_t* L_14 = V_2;
+		return L_14;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTS_iOS_get_CurrentLanguageCode_m52EDE478F596BFC67F48DA2EEEF771DD18ADC73E (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_iOS__CurrentLanguageCode_mD19C7FE5923F99D73914A80BE90797947FB431C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA8E58B6F8545B5FFB6E26A77C7B778EBA2B6D54A);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	String_t* V_1 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((((int32_t)L_0) == ((int32_t)8)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)((int32_t)31)))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_3 = (Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C*)il2cpp_codegen_object_new(Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C_il2cpp_TypeInfo_var);
+		Func_1__ctor_m27A68E928C1D9158EAAD261086B9BC424339327B(L_3, NULL, (intptr_t)((void*)TTS_iOS__CurrentLanguageCode_mD19C7FE5923F99D73914A80BE90797947FB431C0_RuntimeMethod_var), NULL);
+		String_t* L_4 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		String_t* L_5;
+		L_5 = TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92(L_3, L_4, _stringLiteralA8E58B6F8545B5FFB6E26A77C7B778EBA2B6D54A, TTS_iOS_Try_TisString_t_mFF53FACCFCF5359B85D1EBEC9970E52A1EF2EE92_RuntimeMethod_var);
+		V_1 = L_5;
+		goto IL_003f;
+	}
+
+IL_0037:
+	{
+		String_t* L_6 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		V_1 = L_6;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		String_t* L_7 = V_1;
+		return L_7;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTS_iOS_Try_m22C200877DF6A42845AB0DF5BD5EB48E2DE4DA83 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_action, String_t* ___1_errorMessage, const RuntimeMethod* method) 
+{
+	Exception_t* V_0 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+	}
+	try
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___0_action;
+		NullCheck(L_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_0, NULL);
+		goto IL_0028;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_000c;
+		}
+		throw e;
+	}
+
+CATCH_000c:
+	{
+		Exception_t* L_1 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		V_0 = L_1;
+		String_t* L_2 = ___1_errorMessage;
+		Exception_t* L_3 = V_0;
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_3);
+		String_t* L_5;
+		L_5 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745)), L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_5, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0__ctor_m74580B90DC135E0DCC28F917B5844D8EB45F83AB (U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0_U3CSetupCallbacksU3Eb__0_m7070CA870EE8C63992BC23EA39F9258F5EE1926A (U3CU3Ec__DisplayClass19_0_tF14BE43DFB1A5CCF03322CE714951F73DDBAD383* __this, const RuntimeMethod* method) 
+{
+	{
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_0 = __this->___speechUtteranceCancelled;
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_1 = __this->___speechUtteranceContinued;
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_2 = __this->___speechUtteranceFinished;
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_3 = __this->___speechUtterancePaused;
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_4 = __this->___speechUtteranceStarted;
+		StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* L_5 = __this->___willSpeakPartOfString;
+		TTS_iOS__SetupCallbacks_m42D2C284FF965C7EB7891EA93D9FAB15D2A62B5D(L_0, L_1, L_2, L_3, L_4, L_5, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0__ctor_m8037EC648DAB16CBAE0B981C48E6A4FB83815528 (U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_1__ctor_m1ACD5DDE21D0D8CBD875CE811F2463FD5E626CA9 (U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_1_U3CSpeakU3Eb__0_m379640C8E0A463199D9621B26A5DA02B79C2FB03 (U3CU3Ec__DisplayClass20_1_t08527A68DF50F15DA90A281F6427BCF8B831050C* __this, const RuntimeMethod* method) 
+{
+	{
+		U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* L_0 = __this->___CSU24U3CU3E8__locals1;
+		NullCheck(L_0);
+		String_t* L_1 = L_0->___textToSpeak;
+		float L_2 = __this->___pitch;
+		U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* L_3 = __this->___CSU24U3CU3E8__locals1;
+		NullCheck(L_3);
+		double L_4 = L_3->___preUtteranceDelay;
+		U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* L_5 = __this->___CSU24U3CU3E8__locals1;
+		NullCheck(L_5);
+		double L_6 = L_5->___postUtteranceDelay;
+		float L_7 = __this->___rate;
+		U3CU3Ec__DisplayClass20_0_t5FA1948C9CE55ACF6CF335FD1E4C1A8F0D45998C* L_8 = __this->___CSU24U3CU3E8__locals1;
+		NullCheck(L_8);
+		String_t* L_9 = L_8->___voiceIdentifier;
+		float L_10 = __this->___clampedVolume;
+		TTS_iOS__Speak_m3908585E5077A9D533AFC486BC071BE9EECE1795(L_1, L_2, L_4, L_6, L_7, L_9, L_10, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_m6A62CA4F8B8F45E4B332D36B45DD49EA03A1AA14 (U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec__DisplayClass35_0_U3CGetVoiceIdentifierU3Eb__0_m95A0A638D71B09B9B4B0A731AB1CFEE790654C35 (U3CU3Ec__DisplayClass35_0_t9E2145E5BE0302CAF371F5B2802484D343A30D49* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___index;
+		String_t* L_1;
+		L_1 = TTS_iOS__GetVoiceIdentifier_m8D23DF0591D70D71F5C081440C213F2C49057B63(L_0, NULL);
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0__ctor_mCEE32C187254A754F9D39EFDDA98AD1CCE838B37 (U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec__DisplayClass36_0_U3CGetVoiceNameU3Eb__0_mA28FCE93618BF1F20381C2E1F33A1361146B3B05 (U3CU3Ec__DisplayClass36_0_tE6B822E0443130C3EFE8FAAA866DE43C6BED78A3* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___index;
+		String_t* L_1;
+		L_1 = TTS_iOS__GetVoiceName_mA66ABF0C62C871B68F242F9AE28E901E7EBD0515(L_0, NULL);
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0__ctor_mEC95A5F352C4D93416AC2B42C3B6F196F3609E36 (U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec__DisplayClass37_0_U3CGetVoiceLanguageU3Eb__0_m63C0D08EA38D017E25DDC93FB82DEFB08314591B (U3CU3Ec__DisplayClass37_0_t3345C88022509AD5D8C6729A49BB463CD8794D45* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___index;
+		String_t* L_1;
+		L_1 = TTS_iOS__GetVoiceLanguage_m56E2633F6196B1BA8B66940E2AD1AA441289D6A1(L_0, NULL);
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0__ctor_m7C66A6C0833DE278BFC98D966DDF1149DDF8B94C (U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass38_0_U3CGetVoiceQualityU3Eb__0_mB9BB439EA782926797622BFB26888A32BF6A4FD6 (U3CU3Ec__DisplayClass38_0_tC3F010A0FF6D82442AE58BCD0E0969B932DAF060* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___index;
+		int32_t L_1;
+		L_1 = TTS_iOS__GetVoiceQuality_mA17546A9C01BE1964E89708A425BC33CA1316CDB(L_0, NULL);
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0__ctor_m169F3C44EF28B6838B1E17F84A2BADAC92C9D0C1 (U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec__DisplayClass39_0_U3CGetVoiceIdentifierFromLanguageCodeU3Eb__0_m2BD6B2EB71EAD07AFE19479ACF4E6AC261AA0BB9 (U3CU3Ec__DisplayClass39_0_tBFDBC13CAE00799ACE86FD30E4A3802C39F5DEF4* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___languageCode;
+		String_t* L_1;
+		L_1 = TTS_iOS__GetVoiceIdentifierFromLanguageCode_m87C4F85A12D949B158417F3718A57347A249E625(L_0, NULL);
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_Awake_m0B5DA2B3E6896CAFA6DF405CF5A71136B0C1B966 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ExampleScript_ClearTextProgress_m49AD4B91E2B37F26CE247F10CF6CF8DD5006AEE4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ExampleScript_U3CAwakeU3Eb__18_0_mD004688662BA06D5B2E4DBFF46AE4819EA282194_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ExampleScript_UpdateTextProgress_m49D424ED82FFC18AF22DAB090B34AF1F20B9C25D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ExampleScript_CacheAllVoices_m7647E57D5B6E93F510593992ECD53A2DF9E4D5C4(__this, NULL);
+		ExampleScript_SetVoiceToCurrentUserLanguageCode_m84FBF80A838B8D4994981C6A962C486492FD59BA(__this, NULL);
+		ExampleScript_UpdateVoiceDetails_m034459E3971F9C5E7B30E6DB45255DBEE5F6635B(__this, NULL);
+		StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* L_0 = (StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE*)il2cpp_codegen_object_new(StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE_il2cpp_TypeInfo_var);
+		StringSpeechUtteranceCallback__ctor_m07F18C6B6B34C00BF5E58E4C08F3F8666EA26980(L_0, __this, (intptr_t)((void*)ExampleScript_UpdateTextProgress_m49D424ED82FFC18AF22DAB090B34AF1F20B9C25D_RuntimeMethod_var), NULL);
+		((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnWillSpeak = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnWillSpeak), (void*)L_0);
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_1 = (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)il2cpp_codegen_object_new(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E_il2cpp_TypeInfo_var);
+		SpeechUtteranceCallback__ctor_m0CB01282D7D00ABFBA60562E47A1BB70CE2D757D(L_1, __this, (intptr_t)((void*)ExampleScript_ClearTextProgress_m49AD4B91E2B37F26CE247F10CF6CF8DD5006AEE4_RuntimeMethod_var), NULL);
+		((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechCancelled = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechCancelled), (void*)L_1);
+		SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* L_2 = (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E*)il2cpp_codegen_object_new(SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E_il2cpp_TypeInfo_var);
+		SpeechUtteranceCallback__ctor_m0CB01282D7D00ABFBA60562E47A1BB70CE2D757D(L_2, __this, (intptr_t)((void*)ExampleScript_ClearTextProgress_m49AD4B91E2B37F26CE247F10CF6CF8DD5006AEE4_RuntimeMethod_var), NULL);
+		((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechFinished = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&((TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_StaticFields*)il2cpp_codegen_static_fields_for(TTS_t04CEC92D8942958C40FF3F9C7DFF3B2390E31C51_il2cpp_TypeInfo_var))->___OnSpeechFinished), (void*)L_2);
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->___PitchSlider;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_4;
+		L_4 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		NullCheck(L_4);
+		float L_5 = L_4->___PitchMultiplier;
+		NullCheck(L_3);
+		VirtualActionInvoker1< float >::Invoke(47, L_3, L_5);
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->___PitchSlider;
+		NullCheck(L_6);
+		float L_7;
+		L_7 = VirtualFuncInvoker0< float >::Invoke(46, L_6);
+		ExampleScript_UpdatePitch_m261834F7E97739BCE39FFC2439570FC33259E11A(__this, L_7, NULL);
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_8 = __this->___RateSlider;
+		float L_9;
+		L_9 = TTS_get_UtteranceMinimumSpeechRate_m7C8D5535BC67E59AF35D9B2C63C38C94646151FF(NULL);
+		NullCheck(L_8);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_8, L_9, NULL);
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_10 = __this->___RateSlider;
+		float L_11;
+		L_11 = TTS_get_UtteranceMaximumSpeechRate_m71F851EAA9F9551AB89E1930B7A6B3B273C1D4D3(NULL);
+		NullCheck(L_10);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_10, L_11, NULL);
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_12 = __this->___RateSlider;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_13;
+		L_13 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		NullCheck(L_13);
+		float L_14 = L_13->___SpeechRate;
+		NullCheck(L_12);
+		VirtualActionInvoker1< float >::Invoke(47, L_12, L_14);
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_15 = __this->___RateSlider;
+		NullCheck(L_15);
+		float L_16;
+		L_16 = VirtualFuncInvoker0< float >::Invoke(46, L_15);
+		ExampleScript_UpdateSpeechRate_m10185C328763EEDC947FB772C332AFA019D35823(__this, L_16, NULL);
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_17 = __this->___VolumeSlider;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_18;
+		L_18 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		NullCheck(L_18);
+		float L_19 = L_18->___Volume;
+		NullCheck(L_17);
+		VirtualActionInvoker1< float >::Invoke(47, L_17, L_19);
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_20 = __this->___VolumeSlider;
+		NullCheck(L_20);
+		float L_21;
+		L_21 = VirtualFuncInvoker0< float >::Invoke(46, L_20);
+		ExampleScript_UpdateVolume_m5FA4E83D9F3188534016223221065F4F256607DD(__this, L_21, NULL);
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_22 = __this->___InputField;
+		NullCheck(L_22);
+		String_t* L_23;
+		L_23 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704(L_22, NULL);
+		__this->____lastSubmittedText = L_23;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____lastSubmittedText), (void*)L_23);
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_24 = __this->___InputField;
+		NullCheck(L_24);
+		EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* L_25;
+		L_25 = InputField_get_onEndEdit_m92C86FF7CA6108C4B14392CED20C9ED9D39AD9A3(L_24, NULL);
+		UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* L_26 = (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*)il2cpp_codegen_object_new(UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mE6251CCFD943EB114960F556A546E2777B18AC71(L_26, __this, (intptr_t)((void*)ExampleScript_U3CAwakeU3Eb__18_0_mD004688662BA06D5B2E4DBFF46AE4819EA282194_RuntimeMethod_var), NULL);
+		NullCheck(L_25);
+		UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F(L_25, L_26, UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_CacheAllVoices_m7647E57D5B6E93F510593992ECD53A2DF9E4D5C4 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToList_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_mAE10957E191A158B7A66A1D3A8E0D22287CF4EAC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m4E0C9673C23A17551CA8C52B4BF4BF91D0C14F3F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ReadOnlyCollection_1_t1C3944F07B94BC64361CF1100215E368CE754666* L_0;
+		L_0 = TTS_get_AllAvailableVoices_m502C8E46BE690C5AF9E9B6CEC8EBA90F6CC9B557(NULL);
+		List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* L_1;
+		L_1 = Enumerable_ToList_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_mAE10957E191A158B7A66A1D3A8E0D22287CF4EAC(L_0, Enumerable_ToList_TisISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_mAE10957E191A158B7A66A1D3A8E0D22287CF4EAC_RuntimeMethod_var);
+		__this->____voices = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____voices), (void*)L_1);
+		List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* L_2 = __this->____voices;
+		NullCheck(L_2);
+		List_1_Add_m4E0C9673C23A17551CA8C52B4BF4BF91D0C14F3F_inline(L_2, (RuntimeObject*)NULL, List_1_Add_m4E0C9673C23A17551CA8C52B4BF4BF91D0C14F3F_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_SetVoiceToCurrentUserLanguageCode_m84FBF80A838B8D4994981C6A962C486492FD59BA (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_IndexOf_m0CC826A845D879D180EF1FCD9A4AB9BB6511DFC9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	bool V_3 = false;
+	{
+		String_t* L_0;
+		L_0 = TTS_get_CurrentLanguageCode_m840D33F5A747B14DC4A12F9BD54733F74FD8B047(NULL);
+		V_0 = L_0;
+		List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* L_1 = __this->____voices;
+		V_1 = L_1;
+		String_t* L_2 = V_0;
+		RuntimeObject* L_3;
+		L_3 = TTS_GetVoiceForLanguage_m49CCC42E92F4E70C5761A721A3C418BEBDBE08B1(L_2, NULL);
+		V_2 = L_3;
+		RuntimeObject* L_4 = V_2;
+		V_3 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_4) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_5 = V_3;
+		if (!L_5)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* L_6 = V_1;
+		RuntimeObject* L_7 = V_2;
+		NullCheck(L_6);
+		int32_t L_8;
+		L_8 = List_1_IndexOf_m0CC826A845D879D180EF1FCD9A4AB9BB6511DFC9(L_6, L_7, List_1_IndexOf_m0CC826A845D879D180EF1FCD9A4AB9BB6511DFC9_RuntimeMethod_var);
+		__this->____currentVoiceIndex = L_8;
+	}
+
+IL_002a:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_UpdatePitch_m261834F7E97739BCE39FFC2439570FC33259E11A (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6B02FADAE012DF34F336EB192E223B18612D5406);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0;
+		L_0 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		float L_1 = ___0_value;
+		NullCheck(L_0);
+		L_0->___PitchMultiplier = L_1;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___CurrentPitch;
+		float L_3 = ___0_value;
+		float L_4 = L_3;
+		RuntimeObject* L_5 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_4);
+		String_t* L_6;
+		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral6B02FADAE012DF34F336EB192E223B18612D5406, L_5, NULL);
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_6);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_UpdateSpeechRate_m10185C328763EEDC947FB772C332AFA019D35823 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6B02FADAE012DF34F336EB192E223B18612D5406);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0;
+		L_0 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		float L_1 = ___0_value;
+		NullCheck(L_0);
+		L_0->___SpeechRate = L_1;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___CurrentRate;
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->___RateSlider;
+		NullCheck(L_3);
+		float L_4;
+		L_4 = Slider_get_minValue_m4443221B443E357866F07B062CE39944134C794C(L_3, NULL);
+		float L_5 = ___0_value;
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->___RateSlider;
+		NullCheck(L_6);
+		float L_7;
+		L_7 = Slider_get_maxValue_mB34C0C9337F5D00ECB2915E8008BCAEB8E7C5FB6(L_6, NULL);
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_8 = __this->___RateSlider;
+		NullCheck(L_8);
+		float L_9;
+		L_9 = Slider_get_minValue_m4443221B443E357866F07B062CE39944134C794C(L_8, NULL);
+		float L_10 = ((float)il2cpp_codegen_add(L_4, ((float)il2cpp_codegen_multiply(L_5, ((float)il2cpp_codegen_subtract(L_7, L_9))))));
+		RuntimeObject* L_11 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_10);
+		String_t* L_12;
+		L_12 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral6B02FADAE012DF34F336EB192E223B18612D5406, L_11, NULL);
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_12);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_UpdateVolume_m5FA4E83D9F3188534016223221065F4F256607DD (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6B02FADAE012DF34F336EB192E223B18612D5406);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_0;
+		L_0 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		float L_1 = ___0_value;
+		NullCheck(L_0);
+		L_0->___Volume = L_1;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___CurrentVolume;
+		float L_3 = ___0_value;
+		float L_4 = L_3;
+		RuntimeObject* L_5 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_4);
+		String_t* L_6;
+		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral6B02FADAE012DF34F336EB192E223B18612D5406, L_5, NULL);
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_6);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_UpdateVoiceDetails_m034459E3971F9C5E7B30E6DB45255DBEE5F6635B (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m0AA80B0280F0F5BE09EE51F313EF27A812223EFA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoiceQuality_tA1738D634A3862BD84CF5100F33F5F18A8F2B927_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral23114468D04FA2B7A2DA455B545DB914D0A3ED94);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46AADC523616552BE6B449CC2F0ACCDCBCF6A294);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D5313975DA8153FF9A5262016CB413A4E84846E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA63B132396CD361156B3E69252818B2A6054B8F2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA695A3D7B80A612FE4D8F644AF65709D18DCA444);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAD63C57267F016D48E7D78ECDEEE89E279C366DB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5466F3CB535834FA62C71252E792E251CD0A1C9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDF25DBD6EE5AB620F6EC4D779CE029E3C61F2B37);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF6A101741C640B937FF720B3CB1412AEF2A36790);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	bool V_1 = false;
+	{
+		List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* L_0 = __this->____voices;
+		int32_t L_1 = __this->____currentVoiceIndex;
+		NullCheck(L_0);
+		RuntimeObject* L_2;
+		L_2 = List_1_get_Item_m0AA80B0280F0F5BE09EE51F313EF27A812223EFA(L_0, L_1, List_1_get_Item_m0AA80B0280F0F5BE09EE51F313EF27A812223EFA_RuntimeMethod_var);
+		V_0 = L_2;
+		SpeechUtteranceParameters_t7EBAF9FB5BD9A9602821EC860DCE0DB8EFCBBEC9* L_3;
+		L_3 = TTS_get_DefaultParameters_m5E02AFF6816FB76830FB57F8DF505CF3AA2B4B8D(NULL);
+		RuntimeObject* L_4 = V_0;
+		NullCheck(L_3);
+		L_3->___Voice = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___Voice), (void*)L_4);
+		RuntimeObject* L_5 = V_0;
+		V_1 = (bool)((((RuntimeObject*)(RuntimeObject*)L_5) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_00a3;
+		}
+	}
+	{
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___VoiceTitle;
+		int32_t L_8 = __this->____currentVoiceIndex;
+		int32_t L_9 = ((int32_t)il2cpp_codegen_add(L_8, 1));
+		RuntimeObject* L_10 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_9);
+		List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* L_11 = __this->____voices;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_inline(L_11, List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_RuntimeMethod_var);
+		int32_t L_13 = L_12;
+		RuntimeObject* L_14 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_13);
+		String_t* L_15;
+		L_15 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF6A101741C640B937FF720B3CB1412AEF2A36790, L_10, L_14, NULL);
+		NullCheck(L_7);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_7, L_15);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___VoiceId;
+		NullCheck(L_16);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_16, _stringLiteralDF25DBD6EE5AB620F6EC4D779CE029E3C61F2B37);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___VoiceName;
+		NullCheck(L_17);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_17, _stringLiteral9D5313975DA8153FF9A5262016CB413A4E84846E);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___VoiceLanguage;
+		NullCheck(L_18);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_18, _stringLiteralB5466F3CB535834FA62C71252E792E251CD0A1C9);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = __this->___VoiceQuality;
+		NullCheck(L_19);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_19, _stringLiteral46AADC523616552BE6B449CC2F0ACCDCBCF6A294);
+		goto IL_014b;
+	}
+
+IL_00a3:
+	{
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___VoiceTitle;
+		int32_t L_21 = __this->____currentVoiceIndex;
+		int32_t L_22 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		RuntimeObject* L_23 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_22);
+		List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* L_24 = __this->____voices;
+		NullCheck(L_24);
+		int32_t L_25;
+		L_25 = List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_inline(L_24, List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_RuntimeMethod_var);
+		int32_t L_26 = L_25;
+		RuntimeObject* L_27 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_26);
+		String_t* L_28;
+		L_28 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF6A101741C640B937FF720B3CB1412AEF2A36790, L_23, L_27, NULL);
+		NullCheck(L_20);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_20, L_28);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___VoiceId;
+		RuntimeObject* L_30 = V_0;
+		NullCheck(L_30);
+		String_t* L_31;
+		L_31 = InterfaceFuncInvoker0< String_t* >::Invoke(0, ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var, L_30);
+		String_t* L_32;
+		L_32 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA63B132396CD361156B3E69252818B2A6054B8F2, L_31, NULL);
+		NullCheck(L_29);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_29, L_32);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___VoiceName;
+		RuntimeObject* L_34 = V_0;
+		NullCheck(L_34);
+		String_t* L_35;
+		L_35 = InterfaceFuncInvoker0< String_t* >::Invoke(1, ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var, L_34);
+		String_t* L_36;
+		L_36 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral23114468D04FA2B7A2DA455B545DB914D0A3ED94, L_35, NULL);
+		NullCheck(L_33);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_33, L_36);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___VoiceLanguage;
+		RuntimeObject* L_38 = V_0;
+		NullCheck(L_38);
+		String_t* L_39;
+		L_39 = InterfaceFuncInvoker0< String_t* >::Invoke(2, ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var, L_38);
+		String_t* L_40;
+		L_40 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA695A3D7B80A612FE4D8F644AF65709D18DCA444, L_39, NULL);
+		NullCheck(L_37);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_37, L_40);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___VoiceQuality;
+		RuntimeObject* L_42 = V_0;
+		NullCheck(L_42);
+		int32_t L_43;
+		L_43 = InterfaceFuncInvoker0< int32_t >::Invoke(3, ISpeechSynthesisVoice_tB8FE7A21C0F641F53111B94910710F66BD07E4E6_il2cpp_TypeInfo_var, L_42);
+		int32_t L_44 = L_43;
+		RuntimeObject* L_45 = Box(VoiceQuality_tA1738D634A3862BD84CF5100F33F5F18A8F2B927_il2cpp_TypeInfo_var, &L_44);
+		String_t* L_46;
+		L_46 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralAD63C57267F016D48E7D78ECDEEE89E279C366DB, L_45, NULL);
+		NullCheck(L_41);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_41, L_46);
+	}
+
+IL_014b:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_Update_m73B41DCBB6B74B5D87FFDC82A821348CB8E0A910 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1F5D109BA6DE99F9109D8AAFAEC55D57E4012C2C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral72DEF5B5F1D04BD357E8DAAB6DA60934536A60D8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___IsSpeakingText;
+		bool L_1;
+		L_1 = TTS_get_IsSpeaking_m15DE0F950261B45012DCBEDA13C551C8EA4AE051(NULL);
+		bool L_2 = L_1;
+		RuntimeObject* L_3 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_2);
+		String_t* L_4;
+		L_4 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral72DEF5B5F1D04BD357E8DAAB6DA60934536A60D8, L_3, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_4);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = __this->___IsPausedText;
+		bool L_6;
+		L_6 = TTS_get_IsPaused_mB933BAA0BC6CF92F008D29351E67A203F1D50D06(NULL);
+		bool L_7 = L_6;
+		RuntimeObject* L_8 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_7);
+		String_t* L_9;
+		L_9 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral1F5D109BA6DE99F9109D8AAFAEC55D57E4012C2C, L_8, NULL);
+		NullCheck(L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_5, L_9);
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_10 = __this->___InputField;
+		bool L_11;
+		L_11 = TTS_get_IsSpeaking_m15DE0F950261B45012DCBEDA13C551C8EA4AE051(NULL);
+		NullCheck(L_10);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_10, (bool)((((int32_t)L_11) == ((int32_t)0))? 1 : 0), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_UpdateTextProgress_m49D424ED82FFC18AF22DAB090B34AF1F20B9C25D (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, int32_t ___0_startIndex, int32_t ___1_stringLength, String_t* ___2_utteranceSpeechString, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral116273CD5D8FA85B2B09F79802D1EDD0C11FFC66);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3371C9C28E563AFD0A683CA126F078F3F07B7306);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = ___2_utteranceSpeechString;
+		int32_t L_1 = ___0_startIndex;
+		NullCheck(L_0);
+		String_t* L_2;
+		L_2 = String_Insert_mA279E748F06514A6D0B9B680D651D6A6C6BB561A(L_0, L_1, _stringLiteral116273CD5D8FA85B2B09F79802D1EDD0C11FFC66, NULL);
+		V_0 = L_2;
+		String_t* L_3 = V_0;
+		int32_t L_4 = ___0_startIndex;
+		int32_t L_5 = ___1_stringLength;
+		NullCheck(_stringLiteral116273CD5D8FA85B2B09F79802D1EDD0C11FFC66);
+		int32_t L_6;
+		L_6 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(_stringLiteral116273CD5D8FA85B2B09F79802D1EDD0C11FFC66, NULL);
+		NullCheck(L_3);
+		String_t* L_7;
+		L_7 = String_Insert_mA279E748F06514A6D0B9B680D651D6A6C6BB561A(L_3, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_4, L_5)), L_6)), _stringLiteral3371C9C28E563AFD0A683CA126F078F3F07B7306, NULL);
+		V_0 = L_7;
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_8 = __this->___InputField;
+		String_t* L_9 = V_0;
+		NullCheck(L_8);
+		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(L_8, L_9, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_ClearTextProgress_m49AD4B91E2B37F26CE247F10CF6CF8DD5006AEE4 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	{
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___InputField;
+		String_t* L_1 = __this->____lastSubmittedText;
+		NullCheck(L_0);
+		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_Speak_m22B2076ED97E9C275A041FF02D93297A2787068A (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->____lastSubmittedText;
+		TTS_Speak_m6FD64B788CD410359046FE962D944D67A656ED8C(L_0, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_Continue_mAE95A9CAB279C0EF731155452480710686E03799 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	{
+		bool L_0;
+		L_0 = TTS_Continue_m492A14CE76E7C097B310EFE99FF86BDFCAA4D019(NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_Pause_m3CADBE243061C5C47AD5916EAC8D8C89C4AB083B (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____speechBoundary;
+		bool L_1;
+		L_1 = TTS_Pause_mA3E1EA36CB7D234CAA5143624F6CB7E58FE22DD2(L_0, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_Stop_m2A3561DE384217AC00D61033FA99FD727AA31DE6 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____speechBoundary;
+		bool L_1;
+		L_1 = TTS_Stop_m4FCF5E8942301D33DEF05F02A1B4B47DF0A42A6F(L_0, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_SetSpeechBoundary_mFC2D376541813A801E2FAC8ACAB94C22450CCB8D (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, int32_t ___0_speechBoundary, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_speechBoundary;
+		__this->____speechBoundary = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_NextVoice_m67809F3572C04B518000965A64F9AF953DA9E46A (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = __this->____currentVoiceIndex;
+		List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* L_1 = __this->____voices;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_inline(L_1, List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_RuntimeMethod_var);
+		__this->____currentVoiceIndex = ((int32_t)(((int32_t)il2cpp_codegen_add(L_0, 1))%L_2));
+		ExampleScript_UpdateVoiceDetails_m034459E3971F9C5E7B30E6DB45255DBEE5F6635B(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_PreviousVoice_m074209AE3EA25AF017D78F515AADA2ABC9A0BB20 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		int32_t L_0 = __this->____currentVoiceIndex;
+		__this->____currentVoiceIndex = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
+		int32_t L_1 = __this->____currentVoiceIndex;
+		V_0 = (bool)((((int32_t)L_1) < ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		List_1_t59C7326CF286E434F3449FF05F3C343F4555285F* L_3 = __this->____voices;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_inline(L_3, List_1_get_Count_mEA2E7706CD46935447099E9C2FBAD9B20B19A7B4_RuntimeMethod_var);
+		__this->____currentVoiceIndex = ((int32_t)il2cpp_codegen_subtract(L_4, 1));
+	}
+
+IL_002f:
+	{
+		ExampleScript_UpdateVoiceDetails_m034459E3971F9C5E7B30E6DB45255DBEE5F6635B(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript__ctor_m8B996F4D5F9205E0895BAE8EB836B841896EEFB9 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExampleScript_U3CAwakeU3Eb__18_0_mD004688662BA06D5B2E4DBFF46AE4819EA282194 (ExampleScript_tEF5DE0F0D93F8F2FE409A489E328AD8B799102CB* __this, String_t* ___0_text, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_text;
+		__this->____lastSubmittedText = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____lastSubmittedText), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpeechUtteranceCallback_Invoke_m7A2AB93E7A5587A83FC2B5711E2D36980D94B6DC_inline (SpeechUtteranceCallback_t3420B3F8F362E7C922D7BDBC9730A0E934BD284E* __this, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StringSpeechUtteranceCallback_Invoke_m050568D79BB5BD68866545F710567E505A7EADBB_inline (StringSpeechUtteranceCallback_tBB6D2BCB130346B5CC1C773CD49C8EE7126A41CE* __this, int32_t ___0_startIndex, int32_t ___1_stringLength, String_t* ___2_utteranceSpeechString, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, String_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_startIndex, ___1_stringLength, ___2_utteranceSpeechString, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____stringLength;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}

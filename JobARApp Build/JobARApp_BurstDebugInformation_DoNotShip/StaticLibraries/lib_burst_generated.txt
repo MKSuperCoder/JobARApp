@@ -9,6 +9,7 @@ Library: /Users/marcusswa/JobARApp/Temp/BurstOutput/StaticLibraries/lib_burst_ge
 --float-precision=Standard
 --target-framework=NetFramework
 --float-mode=Fast
+--assembly-defines=Assembly-CSharp-firstpass;
 --assembly-defines=Assembly-CSharp;
 --assembly-defines=Mono.Security;
 --assembly-defines=mscorlib;
@@ -57,6 +58,7 @@ Library: /Users/marcusswa/JobARApp/Temp/BurstOutput/StaticLibraries/lib_burst_ge
 --dump=Function
 --float-precision=Standard
 --target-framework=NetFramework
+--assembly-defines=Assembly-CSharp-firstpass;
 --assembly-defines=Assembly-CSharp;
 --assembly-defines=Mono.Security;
 --assembly-defines=mscorlib;
